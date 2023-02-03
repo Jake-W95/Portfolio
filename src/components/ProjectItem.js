@@ -15,6 +15,7 @@ function projectItem(props) {
                 <div style={{display:'flex', flexDirection:'column'}}>
                     <h3>{props.projectName}</h3>
                     <p>{props.projectDescription}</p>
+                    <p>{props.technologies}</p>
                     <NavLink to={props.projectLink}>{props.projectLinkText}</NavLink>
                 </div>
 
