@@ -11,8 +11,9 @@ function projectItem(props) {
         <>
             <section className='projectItems' style={styles}>
                 <div style={{display:'flex', flexDirection:'column'}}>
-                    <h3>Title</h3>
-                    <p>Description her. Blah Blah Blah Blah Blah Blah Blah Blah </p>
+                    <h3>{props.projectName}</h3>
+                    <p>{props.projectDescription}</p>
+                    <a src={props.projectLink}>{props.projectLinkText}</a>
                 </div>
 
 
@@ -26,4 +27,4 @@ function projectItem(props) {
     )
 }
 
-export default projectItem
+export default projectItem 
