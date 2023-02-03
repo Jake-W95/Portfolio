@@ -1,4 +1,6 @@
 import React from 'react'
+import { NavLink } from "react-router-dom";
+
 const styles = {
     width: '40%',
     backgroundColor: '#388',
@@ -11,12 +13,13 @@ function projectItem(props) {
         <>
             <section className='projectItems' style={styles}>
                 <div style={{display:'flex', flexDirection:'column'}}>
-                    <h3>Title</h3>
-                    <p>Description her. Blah Blah Blah Blah Blah Blah Blah Blah </p>
+                    <h3>{props.projectName}</h3>
+                    <p>{props.projectDescription}</p>
+                    <NavLink to={props.projectLink}>{props.projectLinkText}</NavLink>
                 </div>
 
 
-                <img src='https://dummyimage.com/300x220/000/fff&text=this+is+an+image' ></img>
+                <img src={props.projectImgSource} style={{width:'25%'}}></img>
 
 
             </section>
@@ -26,4 +29,4 @@ function projectItem(props) {
     )
 }
 
-export default projectItem
+export default projectItem 
