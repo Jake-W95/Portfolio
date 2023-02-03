@@ -19,7 +19,7 @@ function projectItem(props) {
                 </div>
 
 
-                <img src='https://dummyimage.com/300x220/000/fff&text=this+is+an+image' ></img>
+                <img src={props.projectImgSource} style={{width:'25%'}}></img>
 
 
             </section>
