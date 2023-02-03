@@ -5,9 +5,11 @@ const styles = {
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',
-        backgroundColor: '#aaa',
-        padding: '0 3rem'
+        backgroundColor: '#aab',
+        padding: '1.3rem 7%',
+        textDecoration: 'none'
 
+     
        
     }
 
