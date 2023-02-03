@@ -1,4 +1,6 @@
 import React from 'react'
+import { NavLink } from "react-router-dom";
+
 const styles = {
     width: '40%',
     backgroundColor: '#388',
@@ -13,7 +15,7 @@ function projectItem(props) {
                 <div style={{display:'flex', flexDirection:'column'}}>
                     <h3>{props.projectName}</h3>
                     <p>{props.projectDescription}</p>
-                    <a src={props.projectLink}>{props.projectLinkText}</a>
+                    <NavLink to={props.projectLink}>{props.projectLinkText}</NavLink>
                 </div>
 
 
