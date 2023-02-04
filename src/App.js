@@ -1,5 +1,8 @@
+// Components
 import Header from './components/Header'
 import ProjectItem from './components/ProjectItem'
+
+import projects from './projectClasser'
 
 function App() {
   return (
