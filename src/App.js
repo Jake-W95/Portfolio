@@ -1,12 +1,19 @@
 // Components
 import Header from './components/Header'
+import ProjectSection from './pages/projectsPage';
+import ProjectItem from './components/ProjectItem'
 
-import projects from './projectClasser'
 
 function App() {
   return (
     <div className="App">
       <Header />
+<div>
+
+      {/* <ProjectSection /> */}
+
+</div>
+    
       <ProjectItem 
         projectName="Weather App" 
         projectDescription="This is a description of the project"
