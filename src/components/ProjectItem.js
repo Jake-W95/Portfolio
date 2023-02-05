@@ -6,28 +6,35 @@ const styles = {
     backgroundColor: '#388',
     padding: '1rem',
     display: 'flex',
-    justifyContent:'space-between'
+    justifyContent: 'space-between'
 }
 function projectItem(props) {
     return (
         <>
             <section className='projectItems' style={styles}>
                 <div style={{display:'flex', flexDirection:'column'}}>
-                    <h3>{props.projectName}</h3>
-                    <p>{props.projectDescription}</p>
-                    <p>{props.technologies}</p>
-                    <NavLink to={props.projectLink}>{props.projectLinkText}</NavLink>
+                    <h3>{props.data.name}</h3>
+                    <p>{props.data.description}</p>
+                    <p>{props.data.technologies}</p>
+                    <NavLink to={props.data.link}>{props.data.linkText}</NavLink>
                 </div>
 
 
-                <img src={props.projectImgSource} style={{width:'25%'}}></img>
+                <img src={props.data.imgSrc} style={{width:'35%'}}></img>
 
 
             </section>
 
-
+         
         </>
+
+
+
+
+
+
     )
 }
 
-export default projectItem 
+export default projectItem
+
