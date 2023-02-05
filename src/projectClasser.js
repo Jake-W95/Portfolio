@@ -1,7 +1,7 @@
-const fs = require('fs');
+// const fs = require('fs');
 
 const projectArray = []
-const projectArrayJSON = []
+// const projectArrayJSON = []
 class Project {
     constructor(name, description, tech, link, linkText, imgSrc) {
         this.name = name;
@@ -54,7 +54,7 @@ const READMEGenerator = new Project(
     "img src"
 )
 
-projectArray.push(EventFinder, WeatherApp, HangmanGame, TeamGenerator)
+projectArray.push(EventFinder, WeatherApp, HangmanGame, TeamGenerator, READMEGenerator)
 
 // for (item of projectArray){
 //     JSON.stringify(item);
