@@ -1,32 +1,22 @@
-import React from 'react'
+// import React from 'react'
 import ProjectItem from '../components/ProjectItem'
-import ProjectsArray from '../projectClasser'
+import projectArray from '../projectClasser'
+
+
+const project1 = projectArray[0]
 
 function ProjectSection() {
     return (
         <>
-            <section className='projectSection' >
-                {ProjectsArray.map((project, i) =>
-                    <ProjectItem
-                        name={project.name}
-                        description={project.description}
-                        technologies={project.technologies}
-                        link={project.link}
-                        linkText={project.linkText}
-                        imgSrc={project.imgSrc}
-                         >
-
-                    </ProjectItem>
-                )
-
-
-                }
-
-            </section>
-
-
+        
+            
+          <ProjectItem data={projectArray[4]}
+    
+      /> 
         </>
     )
 }
 
 export default ProjectSection
+
+// console.log(ProjectArray[0])

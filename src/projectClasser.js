@@ -19,7 +19,7 @@ const EventFinder = new Project(
     ["TicketMaster API", "Google Maps API", "moment.js", "JQuery"],
     "https://github.com/Jake-W95/Event_Finder_App",
     "Click here for the GitHub Repository",
-    "img source"
+    "https://blog.discmakers.com/wp-content/uploads/2017/07/next-music-gig-social.jpg"
 )
 const WeatherApp = new Project(
     "Weather App",
@@ -27,7 +27,7 @@ const WeatherApp = new Project(
     ["OpenWeatherMap API", "moment.js", "FontAwesome", "JQuery"],
     "https://jake-w95.github.io/Weather_Forecast_App",
     "Click here to see the live site",
-    "img src"
+    "https://www.educationquizzes.com/library/KS2-Geography/Weather/Weather-2.jpg"
 )
 const HangmanGame = new Project(
     "Hangman Game",
@@ -35,7 +35,7 @@ const HangmanGame = new Project(
     ["WordsAPI", "JQuery"],
     "https://jake-w95.github.io/Hangman_Game/",
     "Click here to play some Hangman!",
-    "img src"
+    "https://media.istockphoto.com/photos/old-gallows-picture-id175233649?k=6&m=175233649&s=170667a&w=0&h=yZmdcg7K7yG8Nv_qn6f1iyhJvqFplmYmBZY1novx_ro="
 )
 const TeamGenerator = new Project(
     "Team Profile Generator",
@@ -43,7 +43,7 @@ const TeamGenerator = new Project(
     ["Node.js", "Jest.js", "Inquire.js"],
     "https://github.com/Jake-W95/TeamProfileGenerator",
     "Please take a look at the GitHub repository",
-    "img src"
+    "http://careerbright.com/wp-content/uploads/2012/12/corporate-team-building.jpg"
 )
 const READMEGenerator = new Project(
     "README Generator",
@@ -51,7 +51,7 @@ const READMEGenerator = new Project(
     ["Node.js", "Inquirer.js"],
     "https://github.com/Jake-W95/README_Generator",
     "Please take a look at the GitHub repository",
-    "img src"
+    "https://qph.fs.quoracdn.net/main-qimg-c3b312a0216700ea7ecc79eb75e393f4"
 )
 
 projectArray.push(EventFinder, WeatherApp, HangmanGame, TeamGenerator, READMEGenerator)
