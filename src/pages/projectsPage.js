@@ -2,19 +2,22 @@
 import ProjectItem from '../components/ProjectItem'
 import projectArray from '../projectClasser'
 
-
-const project1 = projectArray[0]
-
 function ProjectSection() {
+    
     return (
         <>
-        
-            
-          <ProjectItem data={projectArray[4]}
-    
-      /> 
+        {projectArray.map(
+            (project, i) => {
+                console.log(project)
+                return (
+                    <ProjectItem key={i} data={project} />
+                )
+            }
+            )
+        }
         </>
-    )
+    );
+
 }
 
 export default ProjectSection
