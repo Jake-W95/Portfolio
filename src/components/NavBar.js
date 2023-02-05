@@ -1,12 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
+// import style from '../../src/'
+
+
 const linkStyle = {
     //Links
     fontSize: '145%',
     fontWeight: 'bold',
-    color: 'black',
-    textDecoration: 'none',
     marginLeft: '1.3rem',
 }
 
