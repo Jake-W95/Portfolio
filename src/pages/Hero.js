@@ -1,5 +1,5 @@
 import React from "react";
-
+import background from '../../src/images/Tree.JPG'
 
 const col = {
     display: 'flex',
@@ -10,17 +10,24 @@ const row = {
     display: 'flex'
 }
 
-function Home() {
+function Hero() {
     return (
         <>
-        <section style={col}>
-            <h1>Jake Wallace Web Deveopment</h1>
+        <section style={{ 
+            height: '50rem',
+            
+            backgroundImage:`url(${background})`,
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: '10% 100%'
+            
+            }}>
+            <h1>Jake Wallace hi Web Deveopment</h1>
             <div style={row}>
                 <div style={col}>
                 <h3>Welcome to my portfolio</h3>
                 <p>brand statementbrand statementbrand statementbrand statementbrand statementbrand statementbrand statementbrand statementbrand statementbrand statementbrand statementbrand statementbrand statementbrand statementbrand statementbrand statementbrand statementbrand statementbrand statement</p>
                 </div>
-<h1>AssAssAssAssAssAssAss</h1>
+<h1></h1>
 
             </div>
 
@@ -33,4 +40,4 @@ function Home() {
     )
 }
 
-export default Home
+export default Hero
