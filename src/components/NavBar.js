@@ -15,9 +15,9 @@ function NavBar() {
     return (
         <>
             <nav >
-                <NavLink to={'/'} style={linkStyle}>Home</NavLink>
-                <NavLink to={'/'} style={linkStyle}>Projects</NavLink>
-                <NavLink to={'/'} style={linkStyle}>About me</NavLink>
+                <NavLink to={'/'} style={linkStyle}>Home |</NavLink>
+                <NavLink to={'/'} style={linkStyle}>Projects |</NavLink>
+                <NavLink to={'/'} style={linkStyle}>About Me |</NavLink>
                 <NavLink to={'/'} style={linkStyle}>Contact</NavLink>
             </nav>
 

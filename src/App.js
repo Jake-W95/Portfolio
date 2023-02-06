@@ -4,16 +4,15 @@ import NavBar from './components/NavBar'
 import Contact from './components/Contact';
 // Pages
 import ProjectSection from './pages/projectsPage';
-import Home from './pages/home'
+import Hero from './pages/Hero'
 
 
 
 function App() {
   return (
     <div className="App">
-      <Home />
       <Header />
-      <NavBar />
+      <Hero />
       <Contact />
 
       <ProjectSection />
