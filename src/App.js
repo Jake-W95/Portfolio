@@ -3,7 +3,7 @@ import Header from './components/Header'
 import NavBar from './components/NavBar'
 import Contact from './components/Contact';
 // Pages
-import ProjectSection from './pages/projectsPage';
+import ProjectSection from './components/projectsGen';
 import Hero from './pages/Hero'
 
 
@@ -13,9 +13,9 @@ function App() {
     <div className="App">
       <Header />
       <Hero />
+      <ProjectSection />
       <Contact />
 
-      <ProjectSection />
     </div>
   );
 }
