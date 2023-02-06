@@ -1,5 +1,9 @@
 import React from "react";
-import background from '../../src/images/Tree.JPG'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCircleChevronDown } from '@fortawesome/free-solid-svg-icons'
+
+
+import background from '../../src/images/chess.jpg'
 
 const col = {
     display: 'flex',
@@ -13,28 +17,64 @@ const row = {
 function Hero() {
     return (
         <>
-        <section style={{ 
-            height: '50rem',
-            
-            backgroundImage:`url(${background})`,
-            backgroundRepeat: 'no-repeat',
-            backgroundSize: '10% 100%'
-            
+            <section style={{
+                height: '50rem',
+                padding: '4rem',
+                backgroundImage: `url(${background})`,
+                backgroundRepeat: 'no-repeat',
+                backgroundSize: 'cover',
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                justifyContent: 'center',
+                // paddingBottom: '20px'
+
             }}>
-            <h1>Jake Wallace hi Web Deveopment</h1>
-            <div style={row}>
-                <div style={col}>
-                <h3>Welcome to my portfolio</h3>
-                <p>brand statementbrand statementbrand statementbrand statementbrand statementbrand statementbrand statementbrand statementbrand statementbrand statementbrand statementbrand statementbrand statementbrand statementbrand statementbrand statementbrand statementbrand statementbrand statement</p>
+
+                <div style={{
+                    fontSize: '300%',
+                    backgroundColor: 'rgba(0,0,0,0.6)',
+                    padding: '2.5rem',
+                    borderRadius: '30px',
+                    // marginBottom: '13%'
+                }}>
+
+
+
+
+
+                    <h1 style={{color:'white'}}>
+                        I'm Jake <br></br>
+                        I'm a Web Developer</h1>
+
+                    <h4 style={{color:'white'}}>
+                        Welcome to my portfolio,
+                        take a look at my work
+                    </h4>
+
+
+
                 </div>
-<h1></h1>
-
-            </div>
 
 
 
+                <h5 style={{
+                    fontSize: '150%',
+                    color: 'white',
+                    backgroundColor: 'rgba(0,0,0,0.6)',
+                    padding: '1rem',
+                    borderRadius: '20px'
 
-        </section>
+                }}>Continue to learn more
+                </h5>
+
+
+                <FontAwesomeIcon icon={faCircleChevronDown} size='3x' style={{ color: 'blue' }} />
+
+
+
+
+            </section>
 
         </>
     )

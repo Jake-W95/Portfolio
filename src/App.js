@@ -11,9 +11,8 @@ import Hero from './pages/Hero'
 function App() {
   return (
     <div className="App">
-      <Hero />
       <Header />
-      <NavBar />
+      <Hero />
       <Contact />
 
       <ProjectSection />
