@@ -1,22 +1,17 @@
 
 import {NavLink} from "react-router-dom";
   
-const linkStyle = {
-    
-    fontSize: '145%',
-    fontWeight: 'bold',
-    marginLeft: '1.3rem',
-}
+
 
 function NavBar() {
     return (
         <>
             <nav >
-                <NavLink to={'/'} style={linkStyle}>Home |</NavLink>
-                <NavLink to={'/projects'} style={linkStyle}>Projects |</NavLink>
+                <NavLink to={'/'} className='link'>Home </NavLink>
+                <NavLink to={'/projects'} className='link'>Projects</NavLink>
                 
-                <NavLink to={'/contact'} style={linkStyle}>Contact |</NavLink>
-                <NavLink to={'/CV'} style={linkStyle}>My CV </NavLink>
+                <NavLink to={'/contact'} className='link'>Contact</NavLink>
+                <NavLink to={'/CV'} className='link'>My CV </NavLink>
                 
             </nav>
 

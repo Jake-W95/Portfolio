@@ -1,7 +1,7 @@
 * {
   color: rgb(60, 60, 65);
   text-decoration: none;
-  
+
 }
 
 body {
@@ -17,6 +17,15 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New,
     monospace;
+}
+
+header {
+  background-color: rgb(10, 120, 150);
+  padding: 1.3rem 7%;
+  font-size: 140%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between
 }
 
 h1 {
@@ -49,9 +58,80 @@ textarea::placeholder {
   color: rgb(10, 120, 150);
 }
 
+.heroSection {
+  height: 50rem;
+  padding: 4rem;
+  background-color: black;
+  background-image: url(../src/images/Mugshot.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroTextBox {
+  font-size: 300%;
+    background-color: rgba(10,120,150,0.75);
+    padding: 2.5rem;
+    border-radius: 10px
+}
+.link {
+  font-size: 145%;
+    font-weight:bold;
+    margin-left: 1.3rem;
+}
+
 /* .overlay {
   padding: 2rem 3rem;
     height: 100%;
     width: 100%;
     font-size:120%;
 } */
+
+
+@media only screen and (max-width: 786px) {
+body {
+  
+}
+  header {
+    height: 30px;
+    /* width:content; */
+
+  }
+  h1 {
+    font-size: 20px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  nav {
+    display: flex;
+    width: auto;
+  }
+
+.link {
+  font-size: 68%;
+  margin-left: 10px;
+}
+  .heroSection {
+    height: 100vh
+      /* padding: 4rem; */
+      /* background-color: black;
+    background-image: url(../src/images/Mugshot.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+
+  }
+  .heroTextBox {
+    width: 10vh;
+  }
+
+}
