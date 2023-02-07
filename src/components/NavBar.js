@@ -1,6 +1,11 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-
+// import { NavLink } from "react-router-dom";
+import {
+    Route,
+    NavLink,
+    HashRouter
+  } from "react-router-dom";
+  
 // import style from '../../src/'
 
 
@@ -16,9 +21,9 @@ function NavBar() {
         <>
             <nav >
                 <NavLink to={'/'} style={linkStyle}>Home |</NavLink>
-                <NavLink to={'/'} style={linkStyle}>Projects |</NavLink>
+                <NavLink to={'/projects'} style={linkStyle}>Projects |</NavLink>
                 <NavLink to={'/'} style={linkStyle}>About Me |</NavLink>
-                <NavLink to={'/'} style={linkStyle}>Contact |</NavLink>
+                <NavLink to={'/contact'} style={linkStyle}>Contact |</NavLink>
                 <a href="https://drive.google.com/file/d/16YQ52bzso9mEOpAN9IDrVfSJ9cfivs9h/view?usp=sharing" style={linkStyle}>My CV/Résumé</a>
             </nav>
 
