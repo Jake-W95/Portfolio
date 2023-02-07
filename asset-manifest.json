@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0b86a97e.css",
+    "main.js": "/static/js/main.88cf05af.js",
+    "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
+    "static/media/EventFinderB.png": "/static/media/EventFinderB.4b58a23bbede83676e64.png",
+    "static/media/EventFinderA.png": "/static/media/EventFinderA.70e342ea2cd5bdef58fd.png",
+    "static/media/WeatherAppB.png": "/static/media/WeatherAppB.1d54a93241bcb04e263f.png",
+    "static/media/CV.jpg": "/static/media/CV.932bfa96b593b9dd46a5.jpg",
+    "static/media/Mugshot.jpg": "/static/media/Mugshot.b925a06b0675a597c8f5.jpg",
+    "static/media/TeamGeneratorA.jpg": "/static/media/TeamGeneratorA.ee934e533387cfdef2c3.jpg",
+    "static/media/PlannerB.jpg": "/static/media/PlannerB.7a2b80e840827dab5254.jpg",
+    "static/media/READMEGeneratorA.jpg": "/static/media/READMEGeneratorA.317535c840473256e979.jpg",
+    "static/media/TeamGeneratorB.jpg": "/static/media/TeamGeneratorB.cf3affb423b5f2faa2bb.jpg",
+    "static/media/HangmanA.jpg": "/static/media/HangmanA.85479af4178de3498b8c.jpg",
+    "static/media/WeatherAppA.jpg": "/static/media/WeatherAppA.818b0295d97ce4752c70.jpg",
+    "static/media/HangmanB.jpg": "/static/media/HangmanB.2263767c6f911a957a5a.jpg",
+    "static/media/READMEGeneratorB.png": "/static/media/READMEGeneratorB.bc181dc6379561faac62.png",
+    "static/media/PlannerA.png": "/static/media/PlannerA.a558e2209e8b0d761bec.png",
+    "index.html": "/index.html",
+    "main.0b86a97e.css.map": "/static/css/main.0b86a97e.css.map",
+    "main.88cf05af.js.map": "/static/js/main.88cf05af.js.map",
+    "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b86a97e.css",
+    "static/js/main.88cf05af.js"
+  ]
+}
