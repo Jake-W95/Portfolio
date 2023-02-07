@@ -1,9 +1,8 @@
 // Components
 import Header from './components/Header'
-import NavBar from './components/NavBar'
+import ProjectsPage from './pages/ProjectsPage'
 import Contact from './components/Contact';
 // Pages
-import ProjectSection from './pages/projectsPage';
 import Hero from './pages/Hero'
 
 
@@ -13,9 +12,9 @@ function App() {
     <div className="App">
       <Header />
       <Hero />
+      <ProjectsPage />
       <Contact />
 
-      <ProjectSection />
     </div>
   );
 }

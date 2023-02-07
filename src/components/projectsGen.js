@@ -1,5 +1,5 @@
 // import React from 'react'
-import ProjectItem from '../components/ProjectItem'
+import ProjectItem from './ProjectItem'
 import projectArray from '../projectClasser'
 
 function ProjectSection() {
@@ -8,8 +8,9 @@ function ProjectSection() {
         <>
         {projectArray.map(
             (project, i) => {
-                console.log(project)
+                
                 return (
+                    
                     <ProjectItem key={i} data={project} />
                 )
             }
