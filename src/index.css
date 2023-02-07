@@ -11,7 +11,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #474750
+  background-color: rgb(54, 54, 61)
 }
 
 code {
@@ -106,7 +106,7 @@ textarea::placeholder {
   font-size: 300%;
   box-sizing: border-box;
   padding-left: 3rem;
-  background-color: #474750;
+  background-color: rgb(54, 54, 61)
 }
 
 .CVLinkContainer {
