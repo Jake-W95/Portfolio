@@ -1,11 +1,8 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
 
-// import style from '../../src/'
-
-
+import {NavLink} from "react-router-dom";
+  
 const linkStyle = {
-    //Links
+    
     fontSize: '145%',
     fontWeight: 'bold',
     marginLeft: '1.3rem',
@@ -16,10 +13,11 @@ function NavBar() {
         <>
             <nav >
                 <NavLink to={'/'} style={linkStyle}>Home |</NavLink>
-                <NavLink to={'/'} style={linkStyle}>Projects |</NavLink>
+                <NavLink to={'/projects'} style={linkStyle}>Projects |</NavLink>
                 <NavLink to={'/'} style={linkStyle}>About Me |</NavLink>
-                <NavLink to={'/'} style={linkStyle}>Contact |</NavLink>
-                <a href="https://drive.google.com/file/d/16YQ52bzso9mEOpAN9IDrVfSJ9cfivs9h/view?usp=sharing" style={linkStyle}>My CV/Résumé</a>
+                <NavLink to={'/contact'} style={linkStyle}>Contact |</NavLink>
+                <NavLink to={'/CV'} style={linkStyle}>My CV </NavLink>
+                
             </nav>
 
         </>
