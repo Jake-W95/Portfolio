@@ -24,7 +24,6 @@ function ProjectItem(props) {
     }
     const overlayItemStyle = {
         padding: isHover ? '4rem 2rem': '0',
-       
         backgroundColor: '#008CBA',
         overflow: 'hidden',
         height: isHover ? '100%' : '0%',
