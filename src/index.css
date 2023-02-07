@@ -56,12 +56,15 @@ textarea::placeholder {
 
   color: rgb(10, 120, 150);
 }
+
 .contactContainer {
   display: flex;
   justify-content: space-around;
 }
+
 .col {
-  display: flex;;
+  display: flex;
+  ;
   flex-direction: column;
 }
 
@@ -80,7 +83,7 @@ textarea::placeholder {
 
 .heroTextBox {
   font-size: 300%;
-  background-color: rgba(112150.75);
+  background-color: rgba(10, 120, 150, .75);
   padding: 2.5rem;
   border-radius: 10px
 }
@@ -123,6 +126,13 @@ textarea::placeholder {
   justify-content: center;
   align-items: center
 }
+.projectContainer{
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns : 1fr 1fr
+}
+
 
 
 
@@ -177,26 +187,37 @@ textarea::placeholder {
     width: 100%;
     height: 50vh;
   }
-  .contactContainer{
-    display:flex;
+
+  .contactContainer {
+    display: flex;
     flex-direction: column-reverse;
   }
-  .contact{
+
+  .contact {
     /* width: ; */
     font-size: medium;
     margin: 0;
   }
+
   .contactForm h1 {
     text-align: center;
   }
-input, textarea {
-  width:60%;
-  margin: auto;
-  margin-bottom: 2rem;
-  font-size: medium;
 
+  input,
+  textarea {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 2rem;
+    font-size: medium;
+  }
 
-}
+  .projectContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  .overlay{
+    height: 100%;
+  }
 
 
 }
