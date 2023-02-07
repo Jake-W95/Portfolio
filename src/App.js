@@ -3,6 +3,7 @@ import {Routes, Route} from 'react-router-dom'
 import Header from './components/Header'
 import ProjectsPage from './pages/ProjectsPage'
 import Contact from './components/Contact';
+import CVpage from './pages/CVpage'
 // Pages
 import Hero from './components/Hero'
 import { Form } from 'react-router-dom';
@@ -21,7 +22,7 @@ function App() {
   <Route path='/' element={<Hero/>} />
   <Route path='/projects' element={<ProjectsPage/>} />
   <Route path='/contact' element={<Contact/>} />
-  {/* <Route path='*' element={<Contact/>} /> */}
+  <Route path='CV' element={<CVpage />} />
 
 </Routes>
     </div>
