@@ -21,22 +21,19 @@ function ProjectItem(props) {
         backgroundImage: `url(${props.data.imgSrcA})`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
-        borderRadius: '10px'
-
+        borderRadius: '10px',
     }
     const overlayItemStyle = {
-        
-        backgroundColor: '#008CBA',
-        overflow: 'hidden',
-        height: isHover ? '100%' : '0%',
-        transition: '.5s ease',
         backgroundImage: `url(${props.data.imgSrcB})`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
+        height: isHover ? '100%' : '0%',
+        
+        overflow: 'hidden',
+        transition: '.5s ease',
         borderRadius: '10px'
-
     }
- 
+
 
     return (
         <>
@@ -52,13 +49,8 @@ function ProjectItem(props) {
                     style={overlayItemStyle}
                 >
 
-                    <div style={{
-                          backgroundColor: 'rgba(10, 120, 150, 0.92)',
-
-                        padding:'2rem 4rem',
-                        height: '100%',
-                        width: '100%',
-                        fontSize:'120%',
+                    <div class='overlayText' style={{
+                        
                     }}>
 
                         <h3>{props.data.name}</h3>

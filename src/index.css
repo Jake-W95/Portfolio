@@ -1,6 +1,7 @@
 * {
   color: rgb(54, 54, 61);
   text-decoration: none;
+  /* box-sizing: border-box; */
 
 }
 
@@ -126,12 +127,22 @@ textarea::placeholder {
   justify-content: center;
   align-items: center
 }
-.projectContainer{
+
+.projectContainer {
   width: 80%;
   margin: auto;
   display: grid;
-  grid-template-columns : 1fr 1fr
+  grid-template-columns: 1fr 1fr
 }
+
+.overlayText {
+  background-color: rgba(10, 120, 150, 0.92);
+    padding: 2rem 4rem;
+    height: 100%;
+    width: 100%;
+    font-size: 120%
+}
+
 
 
 
@@ -211,12 +222,23 @@ textarea::placeholder {
     font-size: medium;
   }
 
-  .projectContainer{
+  .projectContainer {
     display: flex;
     flex-direction: column;
+    margin: auto;
   }
-  .overlay{
-    height: 100%;
+
+  .overlay {
+    height: 100% !important;
+    width: 100%;
+  }
+  .overlayText {
+    
+      /* padding: 2rem 4rem; */
+      height: 100%;
+      width: 100%;
+      padding: 1rem;
+      font-size: medium
   }
 
 
