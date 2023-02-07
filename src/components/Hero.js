@@ -20,10 +20,7 @@ function Hero() {
         <>
             <section className='heroSection'>
 
-                <div className="heroTextBox" style={{
-                    
-                    // marginBottom: '13%'
-                }}>
+                <div className="heroTextBox">
                     <h1>
                         I'm Jake <br></br>
                         I'm a Web Developer</h1>
