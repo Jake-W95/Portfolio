@@ -1,26 +1,10 @@
-import { faAlignJustify } from "@fortawesome/free-solid-svg-icons";
-import React from "react";
-import { NavLink } from "react-router-dom";
-
-const placeholder = {
-
-}
-
 function Contact() {
     return (
-        <section style={{
-            display:'flex',
-            justifyContent: 'space-around'
-            }}>
+        <section className="contactContainer">
         
-            <div>
+            <div className="contactForm">
                 <h1 className="lightText">Contact Me</h1>
-                <form
-                style={{
-                    display:'flex',
-                    flexDirection:'column'
-                }}
-                >
+                <form className="col">
                     <input type='text' placeholder='Enter Your Name'/>
                     <input type='text' placeholder='Enter Your Email Address' />
                     <textarea placeholder='Enter Message' cols='30' rows='10' />
