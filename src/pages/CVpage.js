@@ -1,8 +1,10 @@
 import CVBackground from '../images/CV.jpg'
 
 const row = {
-    display: 'flex'
+    display: 'flex',
+    height:'100px'
 }
+const text = {color:'rgb(200,200,200)'}
 
 function CVPage() {
     return (
@@ -10,29 +12,30 @@ function CVPage() {
             <section style={row}>
                 <div style={{
                     width: '50%',
-                    height: '100%',
-                    fontSize:'300%',
-                    boxSizing:'border-box',
-                    paddingLeft:'3rem',
-                    backgroundColor:'#82829b'
-                    
+                    // height: '9vh',
+                    fontSize: '300%',
+                    boxSizing: 'border-box',
+                    paddingLeft: '3rem',
+                    backgroundColor: '#474750',
+
+
                 }}>
-                    <h1>My Skills</h1>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>BootStrap</li>
-                        <li>JQuery</li>
-                        <li>React</li>
-                        <li>Node</li>
-                        <li>Soft Skills</li>
+                    <h1 style={text}>My Skills</h1>
+                    <ul >
+                        <li style={text}>HTML</li>
+                        <li style={text}>CSS</li>
+                        <li style={text}>JavaScript</li>
+                        <li style={text}>BootStrap</li>
+                        <li style={text}>JQuery</li>
+                        <li style={text}>React</li>
+                        <li style={text}>Node</li>
+                        
                     </ul>
                 </div>
 
                 <div style={{
                     width: '50%',
-                    height: '600px',
+                    height: '100vh',
                     // backgroundColor:'red',
                     backgroundImage: `url(${CVBackground})`,
                     backgroundSize: 'cover'
@@ -41,13 +44,13 @@ function CVPage() {
                         <div style={{
                             width: '100%',
                             height: '100%',
-                            backgroundColor: 'rgba(255,255,255,0.5)',
+                            backgroundColor: 'rgba(10,120,150,0.7)',
                             display: 'flex',
                             justifyContent: 'center',
                             alignItems: 'center'
                         }}>
                             <h1 style={{
-                               fontSize:'400%'
+                                fontSize: '400%'
                             }}>
                                 Take a look at my CV</h1>
                         </div>
