@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleChevronDown } from '@fortawesome/free-solid-svg-icons'
 
 
-import background from '../../src/images/chess.jpg'
+import background from '../../src/images/Mugshot.jpg'
 
 const col = {
     display: 'flex',
@@ -21,9 +21,10 @@ function Hero() {
             <section style={{
                 height: '50rem',
                 padding: '4rem',
+                backgroundColor: 'black',
                 backgroundImage: `url(${background})`,
                 backgroundRepeat: 'no-repeat',
-                backgroundSize: 'cover',
+                backgroundSize: 'contain',
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',

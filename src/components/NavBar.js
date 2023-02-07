@@ -14,7 +14,7 @@ function NavBar() {
             <nav >
                 <NavLink to={'/'} style={linkStyle}>Home |</NavLink>
                 <NavLink to={'/projects'} style={linkStyle}>Projects |</NavLink>
-                <NavLink to={'/'} style={linkStyle}>About Me |</NavLink>
+                
                 <NavLink to={'/contact'} style={linkStyle}>Contact |</NavLink>
                 <NavLink to={'/CV'} style={linkStyle}>My CV </NavLink>
                 

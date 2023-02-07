@@ -20,7 +20,7 @@ function Header() {
     return (
         <>
             <header style={styles}>
-                <h1>Jake Wallace</h1>
+                <h1>Jake Wallace (hire me)</h1>
                 <NavBar />
 
             </header>
