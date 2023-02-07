@@ -18,7 +18,7 @@ function ProjectItem(props) {
         display: 'flex',
         flexDirection: 'column',
         margin: '1rem',
-        backgroundImage: `url(${props.data.imgSrc})`,
+        backgroundImage: `url(${props.data.imgSrcA})`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
     }
@@ -28,7 +28,9 @@ function ProjectItem(props) {
         overflow: 'hidden',
         height: isHover ? '100%' : '0%',
         transition: '.5s ease',
-        backgroundImage:`url(${props.data.imgSrc2})`
+        backgroundImage:`url(${props.data.imgSrcB})`,
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
         // height: '0%' 
     }
 
