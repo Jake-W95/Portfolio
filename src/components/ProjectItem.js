@@ -36,12 +36,7 @@ function ProjectItem(props) {
         borderRadius: '10px'
 
     }
-    const textStyle = {
-        color:'white',
-        fontSize:'115%',
-        
-    }
-
+ 
 
     return (
         <>
@@ -58,17 +53,18 @@ function ProjectItem(props) {
                 >
 
                     <div style={{
-                        backgroundColor: 'rgba(50,50,60,0.9)',
-                        padding:'2rem 3rem',
+                          backgroundColor: 'rgba(10, 120, 150, 0.92)',
+
+                        padding:'2rem 4rem',
                         height: '100%',
                         width: '100%',
                         fontSize:'120%',
                     }}>
 
-                        <h3 style={textStyle}>{props.data.name}</h3>
-                        <p style={textStyle}>{props.data.description}</p>
-                        <p style={textStyle}>{props.data.technologies}</p>
-                        <NavLink to={props.data.link} style={textStyle}>{props.data.linkText}</NavLink>
+                        <h3>{props.data.name}</h3>
+                        <p>{props.data.description}</p>
+                        <p>{props.data.technologies}</p>
+                        <NavLink to={props.data.link}>{props.data.linkText}</NavLink>
                     </div>
                 </div>
             </div>

@@ -34,7 +34,7 @@ function Hero() {
 
                 <div style={{
                     fontSize: '300%',
-                    backgroundColor: 'rgba(0,0,0,0.7)',
+                    backgroundColor: 'rgba(10,120,150,0.75)',
                     padding: '2.5rem',
                     borderRadius: '10px',
                     // marginBottom: '13%'
@@ -44,11 +44,11 @@ function Hero() {
 
 
 
-                    <h1 style={{color:'white'}}>
+                    <h1>
                         I'm Jake <br></br>
                         I'm a Web Developer</h1>
 
-                    <h4 style={{color:'white'}}>
+                    <h4>
                         Welcome to my portfolio,
                         take a look at my work
                     </h4>
@@ -61,16 +61,15 @@ function Hero() {
 
                 <h5 style={{
                     fontSize: '150%',
-                    color: 'white',
-                    backgroundColor: 'rgba(0,0,0,0.6)',
+                    backgroundColor: 'rgba(10,120,150,0.9)',
                     padding: '1rem',
-                    borderRadius: '20px'
+                    borderRadius: '10px'
 
                 }}>Continue to learn more
                 </h5>
 
 
-                <FontAwesomeIcon icon={faCircleChevronDown} size='3x' style={{ color: 'blue' }} />
+                <FontAwesomeIcon icon={faCircleChevronDown} size='3x' />
 
 
 
