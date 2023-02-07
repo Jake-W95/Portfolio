@@ -33,9 +33,9 @@ function Hero() {
 
                 <div style={{
                     fontSize: '300%',
-                    backgroundColor: 'rgba(0,0,0,0.6)',
+                    backgroundColor: 'rgba(0,0,0,0.7)',
                     padding: '2.5rem',
-                    borderRadius: '30px',
+                    borderRadius: '10px',
                     // marginBottom: '13%'
                 }}>
 

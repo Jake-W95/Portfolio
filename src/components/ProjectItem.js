@@ -23,7 +23,7 @@ function ProjectItem(props) {
         backgroundSize: 'cover',
     }
     const overlayItemStyle = {
-        padding: isHover ? '4rem 2rem' : '0',
+        
         backgroundColor: '#008CBA',
         overflow: 'hidden',
         height: isHover ? '100%' : '0%',
@@ -54,10 +54,11 @@ function ProjectItem(props) {
                 >
 
                     <div style={{
-                        backgroundColor: 'rgba(255,255,255,0.5)',
-                        padding:'1rem',
-                        height: '1000%',
-                        width: '1000%'
+                        backgroundColor: 'rgba(255,255,255,0.7)',
+                        padding:'2rem 3rem',
+                        height: '100%',
+                        width: '100%',
+                        fontSize:'120%'
                     }}>
 
                         <h3>{props.data.name}</h3>
