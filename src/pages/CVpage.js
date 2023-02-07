@@ -17,18 +17,11 @@ function CVPage() {
                     </ul>
                 </div>
 
-                <div className='CVLink'>
+                <div className='CVLinkContainer'>
                     <a href='https://drive.google.com/file/d/16YQ52bzso9mEOpAN9IDrVfSJ9cfivs9h/view?usp=sharing'>
-                        <div style={{
-                            width: '100%',
-                            height: '100%',
-                            backgroundColor: 'rgba(10,120,150,0.7)',
-                            display: 'flex',
-                            justifyContent: 'center',
-                            alignItems: 'center'
-                        }}>
+                        <div className='CVLink'>
                             <h1 style={{
-                                fontSize: '400%'
+                                // fontSize: '400%'
                             }}>
                                 Take a look at my CV</h1>
                         </div>

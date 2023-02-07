@@ -1,10 +1,9 @@
-
-
 * {
   color: rgb(71, 71, 80);
   text-decoration: none;
-  
+
 }
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -16,8 +15,7 @@ body {
 }
 
 code {
-  font-family: source-code-pr, Menl, Monac, Consola, Courier Ne
-    monospace;
+  font-family: source-code-pr, Menl, Monac, Consola, Courier Ne monospace;
 }
 
 header {
@@ -74,34 +72,48 @@ textarea::placeholder {
 
 .heroTextBox {
   font-size: 300%;
-    background-color: rgba(112150.75);
-    padding: 2.5rem;
-    border-radius: 10px
+  background-color: rgba(112150.75);
+  padding: 2.5rem;
+  border-radius: 10px
 }
+
 .link {
   font-size: 145%;
-    font-weight:bold;
-    margin-left: 1.3rem;
+  font-weight: bold;
+  margin-left: 1.3rem;
 }
-.CVContainer{
+
+.CVContainer {
   display: flex;
-  
+  height: 90vh;
+
 }
+
 .CVSkills {
   width: 50%;
   /* height: 9vh; */
   font-size: 300%;
   box-sizing: border-box;
   padding-left: 3rem;
-  background-color:  #474750;
+  background-color: #474750;
 }
-.CVLink {
+
+.CVLinkContainer {
   width: 50%;
   /* height: 100vh; */
   /* background-color:red; */
   background-image: url('./images/CV.jpg');
   background-size: cover
+}
 
+.CVLink {
+
+  width: 100%;
+  height: 100%;
+  background-color: rgba(10, 120, 150, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center
 }
 
 
@@ -113,6 +125,7 @@ textarea::placeholder {
     /* width:content; */
 
   }
+
   header h1 {
     font-size: 20px;
   }
@@ -126,22 +139,36 @@ textarea::placeholder {
     width: auto;
   }
 
-.link {
-  font-size: 68%;
-  margin-left: 10px;
-}
+  .link {
+    font-size: 68%;
+    margin-left: 10px;
+  }
 
   .heroTextBox {
     width: 70%;
-    height:fit-content;
+    height: fit-content;
     padding: 1rem;
     font-size: large;
   }
- .CVContainer {
-  flex-direction: column;
- }
- .CVSkills{
-  width: 100%;
- }
+
+  .CVContainer {
+
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+
+
+  .CVSkills h1,
+  .CVSkills li {
+    font-size: large;
+  }
+
+  .CVLinkContainer,
+  .CVSkills {
+    width: 100%;
+    height: 50vh;
+  }
+
 
 }
