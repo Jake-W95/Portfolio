@@ -5,7 +5,7 @@ import NavBar from "./NavBar";
 
 const styles = {
     //Wrapper
-    backgroundColor: '#aab',
+    backgroundColor: 'rgb(10,120,150)',
     padding: '1.3rem 7%',
     fontSize: '140%',
     display: 'flex',
