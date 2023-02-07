@@ -8,7 +8,7 @@ function ProjectSection() {
         <>
         {projectArray.map(
             (project, i) => {
-                console.log(project)
+                
                 return (
                     
                     <ProjectItem key={i} data={project} />

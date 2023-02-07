@@ -1,10 +1,20 @@
 import React from "react";
 import ProjectGen from '../components/projectsGen';
 
-function ProjectPage () {
+const styles = {
+        display: 'flex',
+    flexDirection: 'column',
+    alignItems:'center'
+}
+
+
+
+function ProjectPage() {
     return (
         <>
-        <ProjectGen />
+            <section style={styles}>
+                <ProjectGen />
+            </section>
         </>
     )
 }
