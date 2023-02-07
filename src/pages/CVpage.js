@@ -4,7 +4,7 @@ const row = {
     display: 'flex',
     height:'100px'
 }
-const text = {color:'rgb(200,200,200)'}
+// const text = {color:'rgb(200,200,200)'}
 
 function CVPage() {
     return (
@@ -20,15 +20,15 @@ function CVPage() {
 
 
                 }}>
-                    <h1 style={text}>My Skills</h1>
+                    <h1 className='lightText'>My Skills</h1>
                     <ul >
-                        <li style={text}>HTML</li>
-                        <li style={text}>CSS</li>
-                        <li style={text}>JavaScript</li>
-                        <li style={text}>BootStrap</li>
-                        <li style={text}>JQuery</li>
-                        <li style={text}>React</li>
-                        <li style={text}>Node</li>
+                        <li className='lightText'>HTML</li>
+                        <li className='lightText'>CSS</li>
+                        <li className='lightText'>JavaScript</li>
+                        <li className='lightText'>BootStrap</li>
+                        <li className='lightText'>JQuery</li>
+                        <li className='lightText'>React</li>
+                        <li className='lightText'>Node</li>
                         
                     </ul>
                 </div>

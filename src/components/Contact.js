@@ -1,20 +1,41 @@
+import { faAlignJustify } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import { NavLink } from "react-router-dom";
 
+const placeholder = {
+
+}
+
 function Contact() {
     return (
-        <>
+        <section style={{
+            display:'flex',
+            justifyContent: 'space-around'
+            }}>
+        
             <div>
-                <h3>Contact Me</h3>
+                <h1 className="lightText">Contact Me</h1>
+                <form
+                style={{
+                    display:'flex',
+                    flexDirection:'column'
+                }}
+                >
+                    <input type='text' placeholder='Enter Your Name'/>
+                    <input type='text' placeholder='Enter Your Email Address' />
+                    <textarea placeholder='Enter Message' cols='30' rows='10' />
+                </form>
+            </div>
+            <div>
                 <ul>
-                    <li><b>Email</b>jakewallace368@gmail.com</li>
-                    <li><b>Phone</b>12345678910</li>
-                    <li><a href="https://github.com/Jake-W95"><b>GitHub</b></a></li>
-                    <li> <a href="https://www.linkedin.com/in/jake-wallace-b2b85a25a/"><b>Linkedin</b></a></li>
+                    <li className="contact lightText"><b className="lightText">Email: </b>jakewallace368@gmail.com</li>
+                    <li className="contact lightText"><b className="lightText">Phone: </b>12345678910</li>
+                    <li className="contact lightText"><a href="https://github.com/Jake-W95" ><b className="lightText">GitHub</b></a></li>
+                    <li className="contact lightText"><a href="https://www.linkedin.com/in/jake-wallace-b2b85a25a/"><b className="lightText">Linkedin</b></a></li>
                 </ul>
             </div>
 
-        </>
+        </section>
 
     )
 }
