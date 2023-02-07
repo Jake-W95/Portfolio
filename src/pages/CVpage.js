@@ -1,25 +1,9 @@
 import CVBackground from '../images/CV.jpg'
-
-const row = {
-    display: 'flex',
-    height:'100px'
-}
-// const text = {color:'rgb(200,200,200)'}
-
 function CVPage() {
     return (
         <>
-            <section style={row}>
-                <div style={{
-                    width: '50%',
-                    // height: '9vh',
-                    fontSize: '300%',
-                    boxSizing: 'border-box',
-                    paddingLeft: '3rem',
-                    backgroundColor: '#474750',
-
-
-                }}>
+            <section className='CVContainer'>
+                <div className='CVSkills'>
                     <h1 className='lightText'>My Skills</h1>
                     <ul >
                         <li className='lightText'>HTML</li>
@@ -33,13 +17,7 @@ function CVPage() {
                     </ul>
                 </div>
 
-                <div style={{
-                    width: '50%',
-                    height: '100vh',
-                    // backgroundColor:'red',
-                    backgroundImage: `url(${CVBackground})`,
-                    backgroundSize: 'cover'
-                }}>
+                <div className='CVLink'>
                     <a href='https://drive.google.com/file/d/16YQ52bzso9mEOpAN9IDrVfSJ9cfivs9h/view?usp=sharing'>
                         <div style={{
                             width: '100%',

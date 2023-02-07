@@ -1,9 +1,10 @@
+
+
 * {
-  color: rgb(60, 60, 65);
+  color: rgb(71, 71, 80);
   text-decoration: none;
-
+  
 }
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -15,7 +16,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New,
+  font-family: source-code-pr, Menl, Monac, Consola, Courier Ne
     monospace;
 }
 
@@ -43,7 +44,7 @@ textarea {
 input::placeholder,
 textarea::placeholder {
   color: rgb(10, 120, 150);
-  font-weight: 900;
+  font-weight: 700;
 
 }
 
@@ -73,7 +74,7 @@ textarea::placeholder {
 
 .heroTextBox {
   font-size: 300%;
-    background-color: rgba(10,120,150,0.75);
+    background-color: rgba(112150.75);
     padding: 2.5rem;
     border-radius: 10px
 }
@@ -82,13 +83,27 @@ textarea::placeholder {
     font-weight:bold;
     margin-left: 1.3rem;
 }
+.CVContainer{
+  display: flex;
+  
+}
+.CVSkills {
+  width: 50%;
+  /* height: 9vh; */
+  font-size: 300%;
+  box-sizing: border-box;
+  padding-left: 3rem;
+  background-color:  #474750;
+}
+.CVLink {
+  width: 50%;
+  /* height: 100vh; */
+  /* background-color:red; */
+  background-image: url('./images/CV.jpg');
+  background-size: cover
 
-/* .overlay {
-  padding: 2rem 3rem;
-    height: 100%;
-    width: 100%;
-    font-size:120%;
-} */
+}
+
 
 
 @media only screen and (max-width: 786px) {
@@ -115,24 +130,18 @@ textarea::placeholder {
   font-size: 68%;
   margin-left: 10px;
 }
-  /* .heroSection {
-    height: 100vh
-      /* padding: 4rem; */
-      /* background-color: black;
-    background-image: url(../src/images/Mugshot.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; */
 
-  /* }  */
   .heroTextBox {
     width: 70%;
     height:fit-content;
     padding: 1rem;
     font-size: large;
   }
+ .CVContainer {
+  flex-direction: column;
+ }
+ .CVSkills{
+  width: 100%;
+ }
 
 }
