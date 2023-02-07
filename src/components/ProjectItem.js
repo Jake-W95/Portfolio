@@ -12,32 +12,32 @@ function ProjectItem(props) {
     const mouseLeave = () => {
         setIsHover(false)
     }
+
+    const projectItemStyle = {
+        height: '20rem',
+        display: 'flex',
+        flexDirection: 'column',
+        margin: '1rem',
+        backgroundImage: `url(${props.data.imgSrc})`,
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+    }
     const overlayItemStyle = {
-        // position: 'absolute',
-        bottom: 0,
-        left: 0,
-        right: 0,
+        padding: isHover ? '4rem 2rem': '0',
+       
         backgroundColor: '#008CBA',
         overflow: 'hidden',
-        width: isHover ? '100%' : '0%',
+        height: isHover ? '100%' : '0%',
         transition: '.5s ease',
-        height: '%' 
+        backgroundImage:`url(${props.data.imgSrc2})`
+        // height: '0%' 
     }
 
     return (
         <>
 
             <div className='projectItem'
-                style={{
-                    height: '10rem',
-                    display: 'flex',
-                    flexDirection: 'column',
-                    margin: '1rem',
-                    padding: '4rem 2rem',
-                    backgroundImage: `url(${props.data.imgSrc})`,
-                    backgroundRepeat: 'no-repeat',
-                    backgroundSize: 'cover',
-                }}
+                style={projectItemStyle}
                 onMouseEnter={mouseEnter}
             onMouseLeave={mouseLeave}
             >
@@ -45,8 +45,7 @@ function ProjectItem(props) {
                 <div 
                 className='overlay' 
                 style={overlayItemStyle}
-                
-                >                     
+                                >                     
                 
                     <h3>{props.data.name}</h3>
                     <p>{props.data.description}</p>
