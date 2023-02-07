@@ -2,9 +2,12 @@ import React from "react";
 import ProjectGen from '../components/projectsGen';
 
 const styles = {
-        display: 'flex',
-    flexDirection: 'column',
-    alignItems:'center'
+    width: '80%',
+    margin: 'auto',
+    display: 'grid',
+    gridTemplateColumns : '1fr 1fr'
+    // flexDirection: 'column',
+    // alignItems:'center'
 }
 
 
