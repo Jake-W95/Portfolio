@@ -18,19 +18,26 @@ function ProjectItem(props) {
         display: 'flex',
         flexDirection: 'column',
         margin: '1rem',
-        backgroundImage: `url(${props.data.imgSrc})`,
+        backgroundImage: `url(${props.data.imgSrcA})`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
     }
     const overlayItemStyle = {
-        padding: isHover ? '4rem 2rem': '0',
+        padding: isHover ? '4rem 2rem' : '0',
         backgroundColor: '#008CBA',
         overflow: 'hidden',
         height: isHover ? '100%' : '0%',
         transition: '.5s ease',
-        backgroundImage:`url(${props.data.imgSrc2})`
+        backgroundImage: `url(${props.data.imgSrcB})`,
+
+
+
+
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
         // height: '0%' 
     }
+
 
     return (
         <>
@@ -38,27 +45,28 @@ function ProjectItem(props) {
             <div className='projectItem'
                 style={projectItemStyle}
                 onMouseEnter={mouseEnter}
-            onMouseLeave={mouseLeave}
+                onMouseLeave={mouseLeave}
             >
 
-                <div 
-                className='overlay' 
-                style={overlayItemStyle}
-                                >                     
-                
-                    <h3>{props.data.name}</h3>
-                    <p>{props.data.description}</p>
-                    <p>{props.data.technologies}</p>
-                    <NavLink to={props.data.link}>{props.data.linkText}</NavLink>
+                <div
+                    className='overlay'
+                    style={overlayItemStyle}
+                >
+
+                    <div style={{
+                        backgroundColor: 'rgba(255,255,255,0.5)',
+                        padding:'1rem',
+                        height: '1000%',
+                        width: '1000%'
+                    }}>
+
+                        <h3>{props.data.name}</h3>
+                        <p>{props.data.description}</p>
+                        <p>{props.data.technologies}</p>
+                        <NavLink to={props.data.link}>{props.data.linkText}</NavLink>
+                    </div>
                 </div>
             </div>
-
-
-
-
-
-
-
 
         </>
 
