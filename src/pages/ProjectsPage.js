@@ -15,8 +15,8 @@ const styles = {
 function ProjectPage() {
     return (
         <>
-            <section style={styles}>
-                <ProjectGen />
+            <section  style={styles}>
+                <ProjectGen  />
             </section>
         </>
     )
