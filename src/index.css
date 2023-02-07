@@ -1,5 +1,5 @@
 * {
-  color: rgb(71, 71, 80);
+  color: rgb(54, 54, 61);
   text-decoration: none;
 
 }
@@ -83,7 +83,7 @@ textarea::placeholder {
 
 .heroTextBox {
   font-size: 300%;
-  background-color: rgba(10, 120, 150, .75);
+  background-color: rgba(10, 120, 150, .8);
   padding: 2.5rem;
   border-radius: 10px
 }
