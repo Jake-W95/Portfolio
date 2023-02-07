@@ -7,6 +7,13 @@ import WeatherAppB from './images/projectImgB/WeatherAppB.png'
 import HangmanA from './images/projectImgA/HangmanA.jpg'
 import HangmanB from './images/projectImgB/HangmanB.jpg'
 
+import TeamGeneratorA from './images/projectImgA/TeamGeneratorA.jpg'
+import TeamGeneratorB from './images/projectImgB/TeamGeneratorB.jpg'
+
+import READMEGeneratorA from './images/projectImgA/READMEGeneratorA.jpg'
+import READMEGeneratorB from './images/projectImgB/READMEGeneratorB.png'
+
+
 
 
 const projectArray = []
@@ -58,7 +65,8 @@ const TeamGenerator = new Project(
     ["Node.js", "Jest.js", "Inquire.js"],
     "https://github.com/Jake-W95/TeamProfileGenerator",
     "Please take a look at the GitHub repository",
-    "http://careerbright.com/wp-content/uploads/2012/12/corporate-team-building.jpg"
+    TeamGeneratorA,
+    TeamGeneratorB
 )
 const READMEGenerator = new Project(
     "README Generator",
@@ -66,7 +74,8 @@ const READMEGenerator = new Project(
     ["Node.js", "Inquirer.js"],
     "https://github.com/Jake-W95/README_Generator",
     "Please take a look at the GitHub repository",
-    "https://qph.fs.quoracdn.net/main-qimg-c3b312a0216700ea7ecc79eb75e393f4"
+    READMEGeneratorA,
+    READMEGeneratorB
 )
 
 projectArray.push(EventFinder, WeatherApp, HangmanGame, TeamGenerator, READMEGenerator)
