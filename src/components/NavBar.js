@@ -1,16 +1,8 @@
-import React from "react";
-// import { NavLink } from "react-router-dom";
-import {
-    Route,
-    NavLink,
-    HashRouter
-  } from "react-router-dom";
+
+import {NavLink} from "react-router-dom";
   
-// import style from '../../src/'
-
-
 const linkStyle = {
-    //Links
+    
     fontSize: '145%',
     fontWeight: 'bold',
     marginLeft: '1.3rem',
