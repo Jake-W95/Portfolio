@@ -28,6 +28,7 @@
       "react-app/jest"
     ]
   },
+  "homepage": "https://Jake-W95.github.io/React_Portfolio/",
   "browserslist": {
     "production": [
       ">0.2%",
