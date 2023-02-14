@@ -17,10 +17,7 @@ import PlannerA from './images/projectImgA/PlannerA.png'
 import PlannerB from './images/projectImgB/PlannerB.jpg'
 
 
-
-
 const projectArray = []
-// const projectArrayJSON = []
 class Project {
     constructor(name, description, tech, link, linkText, imgSrcA, imgSrcB) {
         this.name = name;
@@ -36,18 +33,16 @@ class Project {
 const EventFinder = new Project(
     'Event Finder',
     'An application that allows users to search for and save events, providing information and useful links (official sites, tickets etc)',
-    ['TicketMaster API', 'Google Maps API', 'moment.js', 'JQuery'],
+    ['TicketMaster API, ', 'Google Maps API, ', 'moment.js, ', 'JQuery'],
     'https://github.com/Jake-W95/Event_Finder_App',
     'Click here for the GitHub Repository',
     EventFinderA,
     EventFinderB
-
-
 )
 const WeatherApp = new Project(
     'Weather App',
     'An application that allows users to see the weather forecast (1day-hourly / 5day-3hour) for any location, saving previous searches',
-    ['OpenWeatherMap API', 'moment.js', 'FontAwesome', 'JQuery'],
+    ['OpenWeatherMap API, ', 'moment.js, ', 'FontAwesome, ', 'JQuery'],
     'https://jake-w95.github.io/Weather_Forecast_App',
     'Click here to see the live site',
     WeatherAppA,
@@ -56,7 +51,7 @@ const WeatherApp = new Project(
 const HangmanGame = new Project(
     'Hangman Game',
     'Simple Hangman game that pulls words from an API and gives users the definition on successful round.',
-    ['WordsAPI', 'JQuery'],
+    ['WordsAPI, ', 'JQuery'],
     'https://jake-w95.github.io/Hangman_Game/',
     'Click here to play some Hangman!',
     HangmanA,
@@ -65,7 +60,7 @@ const HangmanGame = new Project(
 const TeamGenerator = new Project(
     'Team Profile Generator',
     'Node application that generates an HTML file based on user inputs.',
-    ['Node.js', 'Jest.js', 'Inquire.js'],
+    ['Node.js, ', 'Jest.js, ', 'Inquire.js'],
     'https://github.com/Jake-W95/TeamProfileGenerator',
     'Please take a look at the GitHub repository',
     TeamGeneratorA,
@@ -74,7 +69,7 @@ const TeamGenerator = new Project(
 const READMEGenerator = new Project(
     'README Generator',
     'Node application that takes user inputs and generates a formatted README file, complete with: license badge, contents table and links.',
-    ['Node.js', 'Inquirer.js'],
+    ['Node.js, ', 'Inquirer.js'],
     'https://github.com/Jake-W95/README_Generator',
     'Please take a look at the GitHub repository',
     READMEGeneratorA,
@@ -83,20 +78,11 @@ const READMEGenerator = new Project(
 const DailyPlanner = new Project(
     'Daily Planner',
     'Simple planner for 1 day, changing styles depending on the current time',
-    ['JQuery', 'moment.js'],
+    ['JQuery, ', 'moment.js'],
     'https://github.com/Jake-W95/Daily_Planner',
     'Please take a look at the GitHub repository',
     PlannerA,
     PlannerB
-
-
 )
-
 projectArray.push(EventFinder, WeatherApp, HangmanGame, TeamGenerator, READMEGenerator, DailyPlanner)
-
-// for (item of projectArray){
-//     JSON.stringify(item);
-//     projectArrayJSON.push(item)
-// }
-
 export default projectArray
