@@ -16,7 +16,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(54, 54, 61)
+  background-color: rgb(54, 54, 61);
+  
 }
 
 code {
@@ -75,7 +76,7 @@ textarea::placeholder {
 }
 
 .heroSection {
-  height: 50rem;
+  height: 100%;
   padding: 4rem;
   background-color: black;
   background-image: url(../src/images/Mugshot.jpg);
