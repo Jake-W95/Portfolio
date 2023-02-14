@@ -28,6 +28,7 @@ function ProjectItem(props) {
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
         height: isHover ? '100%' : '0%',
+        paddingRight: '5rem',
         
         overflow: 'hidden',
         transition: '.5s ease',

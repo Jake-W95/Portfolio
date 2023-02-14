@@ -13,7 +13,7 @@ function Contact() {
             <div>
                 <ul>
                     <li className="contact lightText"><b className="lightText">Email: </b>jakewallace368@gmail.com</li>
-                    <li className="contact lightText"><b className="lightText">Phone: </b>12345678910</li>
+                    {/* <li className="contact lightText"><b className="lightText">Phone: </b>12345678910</li> */}
                     <li className="contact lightText"><a href="https://github.com/Jake-W95" ><b className="lightText">GitHub</b></a></li>
                     <li className="contact lightText"><a href="https://www.linkedin.com/in/jake-wallace-b2b85a25a/"><b className="lightText">Linkedin</b></a></li>
                 </ul>
