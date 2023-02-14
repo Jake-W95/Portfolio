@@ -17,6 +17,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -28,7 +30,7 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://Jake-W95.github.io/React_Portfolio/",
+  "homepage": "https://Jake-W95.github.io/React_Portfolio",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -42,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "react-router-dom": "^6.8.0"
   }
 }
