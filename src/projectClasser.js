@@ -1,3 +1,7 @@
+import F1HeroesA from './images/projectImgA/F1HeroesA.jpg'
+import F1HeroesB from './images/projectImgB/F1HeroesB.jpg'
+
+
 import EventFinderA from './images/projectImgA/EventFinderA.png'
 import EventFinderB from './images/projectImgB/EventFinderB.png'
 
@@ -30,6 +34,16 @@ class Project {
     }
 }
 // const projects = [
+const P1Heroes = new Project(
+    'P1 Heroes!',
+    'A slick, professional looking React application for F1 fans displaying news, up-coming race dates, standings and a Top Trumps style card game written from scratch',
+    ['React, ','Netlify, ', 'framer-motion, ', 'GoogleAPI, ', 'NewsAPI'],
+    'https://p1-heroes.netlify.app/',
+    'Click Here for the Live Site',
+    F1HeroesA,
+    F1HeroesB
+)
+
 const EventFinder = new Project(
     'Event Finder',
     'An application that allows users to search for and save events, providing information and useful links (official sites, tickets etc)',
@@ -84,5 +98,5 @@ const DailyPlanner = new Project(
     PlannerA,
     PlannerB
 )
-projectArray.push(EventFinder, WeatherApp, HangmanGame, TeamGenerator, READMEGenerator, DailyPlanner)
+projectArray.push(P1Heroes, EventFinder, WeatherApp, HangmanGame, TeamGenerator, READMEGenerator, DailyPlanner)
 export default projectArray

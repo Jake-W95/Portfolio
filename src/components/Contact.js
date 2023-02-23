@@ -1,7 +1,6 @@
 function Contact() {
     return (
         <section className="contactContainer">
-        
             <div className="contactForm">
                 <h1 className="lightText">Contact Me</h1>
                 <form className="col">
@@ -18,7 +17,6 @@ function Contact() {
                     <li className="contact lightText"><a href="https://www.linkedin.com/in/jake-wallace-b2b85a25a/"><b className="lightText">Linkedin</b></a></li>
                 </ul>
             </div>
-
         </section>
 
     )

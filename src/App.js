@@ -6,7 +6,7 @@ import Contact from './components/Contact';
 import CVpage from './pages/CVpage'
 // Pages
 import Hero from './components/Hero'
-import { Form } from 'react-router-dom';
+// import { Form } from 'react-router-dom';
 
 
 
@@ -14,9 +14,6 @@ function App() {
   return (
     <div className="App">
       <Header />
-      {/* <Hero /> */}
-      {/* <ProjectsPage /> */}
-      {/* <Contact /> */}
 
 <Routes>
   <Route path='/' element={<Hero/>} />
