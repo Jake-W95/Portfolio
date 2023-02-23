@@ -28,6 +28,7 @@ function ProjectItem(props) {
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
         height: isHover ? '100%' : '0%',
+        paddingRight: '5rem',
         
         overflow: 'hidden',
         transition: '.5s ease',
@@ -37,22 +38,14 @@ function ProjectItem(props) {
 
     return (
         <>
-
             <div className='projectItem'
                 style={projectItemStyle}
                 onMouseEnter={mouseEnter}
-                onMouseLeave={mouseLeave}
-            >
-
+                onMouseLeave={mouseLeave}>
                 <div
                     className='overlay'
-                    style={overlayItemStyle}
-                >
-
-                    <div class='overlayText' style={{
-                        
-                    }}>
-
+                    style={overlayItemStyle}>
+                    <div class='overlayText'>
                         <h3>{props.data.name}</h3>
                         <p>{props.data.description}</p>
                         <p>{props.data.technologies}</p>
@@ -60,16 +53,8 @@ function ProjectItem(props) {
                     </div>
                 </div>
             </div>
-
         </>
-
-
-
-
-
-
     )
 }
-
 export default ProjectItem
 

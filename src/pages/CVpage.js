@@ -18,7 +18,7 @@ function CVPage() {
                 </div>
 
                 <div className='CVLinkContainer'>
-                    <a href='https://drive.google.com/file/d/16YQ52bzso9mEOpAN9IDrVfSJ9cfivs9h/view?usp=sharing'>
+                    <a href='https://drive.google.com/file/d/1tszbGTCQGoQh1AdBqDJDm64oKOSWKVta/view?usp=sharing'>
                         <div className='CVLink'>
                             <h1 style={{
                                 // fontSize: '400%'
