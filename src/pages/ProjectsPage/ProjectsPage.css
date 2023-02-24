@@ -1,13 +1,13 @@
 
 section.projectPage{
-    background-color: darkgreen;
+    background-color: var(--C);
     height: 87vb;
     display: flex;
 
 
 }
 section.projectContainer {
-    background-color: red;
+    background-color: var(--D);
     width: 57%;
     height: 88%;
     overflow-y: scroll;
@@ -15,7 +15,7 @@ section.projectContainer {
     
 }
 div.projectDescription {
-    background-color: darkblue;
+    /* background-color: darkblue; */
     /* padding: ; */
     width: 40%;
     /* height: 100%; */
@@ -24,7 +24,7 @@ div.projectDescription {
     padding: 2rem;
     }
 .projectText h1 {
-    color:rgb(141, 134, 134);
+    /* color:rgb(141, 134, 134); */
     font-size:2.5rem;
     overflow-wrap: break-word;
 

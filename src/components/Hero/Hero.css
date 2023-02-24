@@ -3,8 +3,9 @@
 
 .heroSection{
     display: flex;
-    background-color: var(--blue);
-    justify-content: space-around;
+    background-color: var(--D);
+    justify-content: space-bet;
+    height: 87vb;
 }
 .heroImage{
     height: 27.5rem;
@@ -18,7 +19,8 @@
 .heroTextBox {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 2rem;
-    width: 50%
+    width: 50%;
+    height:76%;
 }

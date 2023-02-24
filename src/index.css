@@ -1,8 +1,8 @@
 :root {
-  --blue: rgb(183, 196, 207);
-  --beige: rgb(238, 227, 203);
-  --brown_light: rgb(215, 192, 174);
-  --brown_dark: rgb(150, 126, 118)
+  --A: rgb(250, 247, 240);
+  --B: rgb(205, 252, 246);
+  --C: rgb(188, 206, 248);
+  --D: rgb(152, 168, 248);
 }
 
 * {
@@ -30,18 +30,13 @@ code {
 }
 
 header {
-  background-color: var(--blue);
+  background-color: var(--C);
   height: 30%;
   padding: 0 7%;
-  /* font-size: 140%; */
   display: flex;
   align-items: center;
   justify-content: space-between
 }
-
-/* h1 {
-  font-size: 200%;
-} */
 
 input,
 textarea {
@@ -53,7 +48,7 @@ textarea {
 
 input::placeholder,
 textarea::placeholder {
-  color: var(--blue);
+  color: var(--D);
   font-weight: 700;
 
 }
