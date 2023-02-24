@@ -1,7 +1,7 @@
 import {Routes, Route} from 'react-router-dom'
 // Components
 import Header from './components/Header'
-import ProjectsPage from './pages/ProjectsPage'
+import ProjectsPage from './pages/ProjectsPage/ProjectsPage'
 import Contact from './components/Contact';
 import CVpage from './pages/CVpage'
 // Pages

@@ -1,0 +1,31 @@
+
+section.projectPage{
+    background-color: darkgreen;
+    height: 87vb;
+    display: flex;
+
+
+}
+section.projectContainer {
+    background-color: red;
+    width: 57%;
+    height: 88%;
+    overflow-y: scroll;
+    margin: auto;
+    
+}
+div.projectDescription {
+    background-color: darkblue;
+    /* padding: ; */
+    width: 40%;
+    /* height: 100%; */
+}
+.projectText {
+    padding: 2rem;
+    }
+.projectText h1 {
+    color:rgb(141, 134, 134);
+    font-size:2.5rem;
+    overflow-wrap: break-word;
+
+}

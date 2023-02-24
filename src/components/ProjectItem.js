@@ -1,8 +1,8 @@
-import React from 'react'
+
 import { NavLink } from "react-router-dom";
 import { useState } from 'react'
 
-// import '../globalStyles.css'
+import '../pages/ProjectsPage/ProjectsPage.css'
 
 function ProjectItem(props) {
     const [isHover, setIsHover] = useState(false);
@@ -14,7 +14,8 @@ function ProjectItem(props) {
     }
 
     const projectItemStyle = {
-        height: '20rem',
+        height: '10rem',
+        // width:'100%',
         display: 'flex',
         flexDirection: 'column',
         margin: '1rem',
@@ -45,12 +46,12 @@ function ProjectItem(props) {
                 <div
                     className='overlay'
                     style={overlayItemStyle}>
-                    <div class='overlayText'>
+                    {/* <div class='overlayText'>
                         <h3>{props.data.name}</h3>
                         <p>{props.data.description}</p>
                         <p>{props.data.technologies}</p>
                         <NavLink to={props.data.link}>{props.data.linkText}</NavLink>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </>
