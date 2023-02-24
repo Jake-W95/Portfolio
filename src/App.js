@@ -5,7 +5,7 @@ import ProjectsPage from './pages/ProjectsPage'
 import Contact from './components/Contact';
 import CVpage from './pages/CVpage'
 // Pages
-import Hero from './components/Hero'
+import Hero from './components/Hero/Hero'
 // import { Form } from 'react-router-dom';
 
 

@@ -1,0 +1,24 @@
+
+
+
+.heroSection{
+    display: flex;
+    background-color: var(--blue);
+    justify-content: space-around;
+}
+.heroImage{
+    height: 27.5rem;
+    width: 30%;
+    background-image: url('../../images/Headshot.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 3%;
+    margin:2%
+}
+.heroTextBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    width: 50%
+}
