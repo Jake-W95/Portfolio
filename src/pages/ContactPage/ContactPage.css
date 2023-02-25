@@ -1,0 +1,53 @@
+.contactContainer {
+    background-color: orange;
+    display: inline-block;
+    /* height: 10%; */
+    width: 100vw;
+    height: 100%;
+}
+
+.mainRow {
+    /* height: 100%; */
+    background-color: brown;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.formHolder {
+    position: relative;
+    top: 25%;
+}
+
+.contactForm {
+    background-color: green;
+}
+
+.contact {
+    font-size: medium;
+    /* margin: 0; */
+}
+
+.shapes {
+    background-color: purple;
+    /* width: 100%; */
+    background-image: url('../../images/Graphics/Shapes_1_NoBackground.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+ul {
+    background-color: red;
+}
+
+input,
+textarea {
+    margin-bottom: 1rem;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: var(--D);
+    font-weight: 700;
+}
