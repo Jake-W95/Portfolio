@@ -32,10 +32,18 @@ code {
 header {
   background-color: var(--C);
   height: 30%;
-  padding: 0 7%;
+  padding: 0.5rem 7%;
   display: flex;
   align-items: center;
   justify-content: space-between
+}
+
+.logo {
+  height: 3rem;
+  width: 3rem;
+  background-image: url('./images/Logos_Designs/JW_Logo_NoBackground.png');
+  background-position: center;
+  background-size: contain;
 }
 
 input,
