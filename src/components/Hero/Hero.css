@@ -5,7 +5,7 @@
     display: flex;
     background-color: var(--D);
     justify-content: space-bet;
-    /* height: 87vh; */
+    height: 90%;
 }
 .heroImage{
     height: 27.5rem;

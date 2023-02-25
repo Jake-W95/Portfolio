@@ -6,7 +6,7 @@ import '../ProjectsPage/ProjectsPage.css'
 
 function ProjectPage() {
     return (
-        <section className='projectPage'>
+        <section className='page projectPage'>
             <section className="projectContainer">
                 <ProjectGen />
             </section>
