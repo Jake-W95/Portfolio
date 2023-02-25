@@ -1,27 +1,44 @@
 .contactContainer {
-    background-color: orange;
+    /* background-color: orange; */
     display: flex;
     justify-content: space-evenly;
 }
 
 .contactForm {
-    background-color: green;
+    /* background-color: green; */
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10%;
+    position: relative;
 }
 
-.contact {
-    font-size: medium;
+.shapesAndList {
+    width: 50%;
+/* background-color: aquamarine; */
+position: relative;
 }
 
 .shapes {
-    background-color: purple;
+    /* background-color: purple; */
     background-image: url('../../images/Graphics/Shapes_1_NoBackground.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    width: 65%;
+    height: 65%;
+    position: absolute;
+    top: 20%;
+    left: 20%
+    
 }
 
-ul {
-    background-color: red;
+.list {
+    /* background-color: red; */
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    z-index: 0;
 }
 
 input,
