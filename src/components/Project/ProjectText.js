@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function ProjectText(textData) {
 
     if (textData.textData === undefined) {
@@ -6,16 +8,18 @@ function ProjectText(textData) {
         )
     }
     if (textData.textData !== undefined) {
-        // console.log('hello', textData)
-        
+
         let projectName = textData.textData.name;
         let Tech = textData.textData.technologies;
         let description = textData.textData.description
+        let link = textData.textData.link
+        let linkText = textData.textData.linkText
         return (
-
             <section className="projectText">
-                
+
                 <h1>{projectName}</h1>
+
+                <p>{description}</p>
 
                 <div className="techUsed">
                     <h2>Technologies used: </h2>
@@ -27,10 +31,11 @@ function ProjectText(textData) {
                         })}
                     </ul>
                 </div>
-                <p>{description}</p>
+
+                <Link to={link}><h3>{linkText}</h3></Link>
             </ section>
         )
-        
+
     }
 
 
