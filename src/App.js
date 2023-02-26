@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import ProjectsPage from './pages/ProjectsPage/ProjectsPage'
 import ContactPage from './pages/ContactPage/ContactPage';
-import CVPage from './pages/CVPage/CVpage';
+import CVPage from './pages/CVPage/CVPage.js';
 // Pages
 import Hero from './components/Hero/Hero'
 // import { Form } from 'react-router-dom';

@@ -8,7 +8,7 @@ section.projectContainer {
     height: 88%;
     overflow-y: scroll;
     border-radius: 3%;
-    background-color: grey;
+    /* background-color: grey; */
 }
 
 ::-webkit-scrollbar {
@@ -22,13 +22,14 @@ div.projectDescription {
 }
 
 .projectText {
-    background-color: peru;
+    /* background-color: peru; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     padding: 1rem;
     height: 88%;
     margin: 0;
+    
 }
 
 .projectText h1 {

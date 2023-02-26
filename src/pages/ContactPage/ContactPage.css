@@ -19,8 +19,8 @@
 position: relative;
 }
 
-.shapes {
-    /* background-color: purple; */
+/* .shapes {
+    
     background-image: url('../../images/Graphics/Shapes_1_NoBackground.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -31,7 +31,7 @@ position: relative;
     top: 20%;
     left: 20%
     
-}
+} */
 
 .list {
     /* background-color: red; */

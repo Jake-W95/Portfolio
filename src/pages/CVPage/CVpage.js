@@ -1,4 +1,5 @@
 import CVBackground from '../../images/CV.jpg'
+import './CVPage.css'
 function CVPage() {
     return (
         <>
@@ -13,19 +14,21 @@ function CVPage() {
                         <li className='lightText'>JQuery</li>
                         <li className='lightText'>React</li>
                         <li className='lightText'>Node</li>
-                        
+
                     </ul>
                 </div>
 
                 <div className='CVLinkContainer'>
-                    <a href='https://drive.google.com/file/d/1tszbGTCQGoQh1AdBqDJDm64oKOSWKVta/view?usp=sharing'>
-                        <div className='CVLink'>
-                            <h1 style={{
-                                // fontSize: '400%'
-                            }}>
-                                Take a look at my CV</h1>
-                        </div>
-                    </a>
+                    <div className='CVOverlay'>
+                        <a href='https://drive.google.com/file/d/1tszbGTCQGoQh1AdBqDJDm64oKOSWKVta/view?usp=sharing'>
+                            <div className='CVLink'>
+                                <h1 style={{
+                                    // fontSize: '400%'
+                                }}>
+                                    Take a look at my CV</h1>
+                            </div>
+                        </a>
+                    </div>
                 </div>
 
             </section>
