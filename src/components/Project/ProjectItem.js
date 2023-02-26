@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import { useState } from 'react'
 
 import '../../pages/ProjectsPage/ProjectsPage.css'
+import { hover } from "@testing-library/user-event/dist/hover";
 
 function ProjectItem(props) {
     const [isHover, setIsHover] = useState(false);
@@ -10,7 +11,8 @@ function ProjectItem(props) {
     const hoverText = (textData) => setTextData(textData);
     const mouseEnter = () => {
         setIsHover(true);
-
+hoverText(props.data)
+console.log(textData)
     }
     const mouseLeave = () => {
         setIsHover(false)
