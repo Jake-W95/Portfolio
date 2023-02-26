@@ -20,5 +20,31 @@ align-items: center;
 
     padding: 4rem;
     width: 50%;
-    /* background-color: green; */
+    
+}
+.heroHeaders {
+    font-size: 5rem
+}
+
+
+@media only screen and (max-width: 413px) {
+.heroSection{
+    display: flex;
+    flex-direction: column ;
+}
+.heroImage{
+    width: 80%;
+}
+.heroHeaders {
+    font-size: 150%;
+}
+.heroTextBox {
+    width: 100%;
+/* align-self: center; */
+text-align: center; 
+    padding: 3rem;
+    margin-top: -4rem;
+    /* width: 80%; */
+    
+}
 }

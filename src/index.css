@@ -12,7 +12,8 @@
   
 }
 html {
-  height: 100%;
+  height: 100vh;
+  width: 100%;
 }
 
 body {
@@ -25,14 +26,17 @@ body {
 
   margin: 0;
   padding: 0;
-  height: 100%;
+  height: 100vh;
+  width: 100%;
   /* overflow: hidden; */
 }
 #root {
-  height: 100%;
+  height: 100vh;
+  width: 100%;
 }
 .App{
-  height: 100%;
+  height: 100vh;
+  width: 100%;
   background-image: url('./images/Background.jpg');
     background-position: center;
     background-size: cover;
@@ -46,6 +50,7 @@ code {
 header {
   /* background-color: var(--C); */
   height: 10vh;
+  width: 100%;
   padding: 0.5rem 7%;
   display: flex;
   align-items: center;
@@ -84,17 +89,13 @@ header {
 
 
 
-@media only screen and (max-width: 786px) {
-
-  header {
-    height: 30px;
-    /* width:content; */
-
-  }
-
-  header h1 {
-    font-size: 20px;
-  }
+@media only screen and (max-width: 413px) {
+.App {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
 
   h5 {
     font-size: 20px;
@@ -106,22 +107,11 @@ header {
   }
 
   .link {
-    font-size: 68%;
+    font-size: 110%;
     margin-left: 10px;
   }
 
-  .CVContainer {
 
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-  }
-
-  .CVLinkContainer,
-  .CVSkills {
-    width: 100%;
-    height: 50vh;
-  }
 
   input,
   textarea {
@@ -130,21 +120,4 @@ header {
     margin-bottom: 2rem;
     font-size: medium;
   }
-
-  .projectContainer {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-  }
-
-  .overlayText {
-    
-      /* padding: 2rem 4rem; */
-      height: 100%;
-      width: 10%;
-      padding: 1rem;
-      font-size: medium
-  }
-
-
 }
