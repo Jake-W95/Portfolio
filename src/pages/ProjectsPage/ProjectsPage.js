@@ -1,20 +1,26 @@
 
-import ProjectGen from '../../components/projectsGen';
-import ProjectText from '../../components/ProjectText';
+import ProjectGen from '../../components/Project/ProjectsGen';
+import ProjectText from '../../components/Project/ProjectText';
 import '../ProjectsPage/ProjectsPage.css'
+
+import { useState } from 'react';
 
 
 function ProjectPage() {
+    const [textData, setTextData] = useState(undefined);
+    const hoverText = (textData) => setTextData(textData);
+    // console.log(textData.name)
     return (
         <section className='page projectPage'>
             <section className="projectContainer">
-                <ProjectGen />
+                <ProjectGen  hoverText={hoverText}/>
             </section>
-            <div className="projectDescription">
+            <div className="projectDescription" >
                 
-                <ProjectText />
+                <ProjectText textData={textData}/>
                 
             </div>
+            
         </section>
     )
 }

@@ -1,20 +1,26 @@
-import projectArray from "../projectClasser";
+import projectArray from "../../projectClasser";
 // console.log(projectArray)
-function projectText() {
+function projectText(textData) {
+    console.log(textData.textData.name)
+    const projectName = textData.textData.name;
+    const Tech = textData.textData.technologies;
+    const description = textData.textData.description
+
+
     return (
         <section className="projectText">
-            <h1>{projectArray[0].name}</h1>
+            <h1>{projectName}</h1>
 
             <div className="techUsed">
                 <h2>Technologies used: </h2>
                 <ul>
-                    {projectArray[0].technologies.map((tech, i) => {
+                    {Tech.map((tech, i) => {
                         return (
                             <li key={i}>{tech}</li>
                         )})}
                 </ul>
             </div>
-            <p>{projectArray[0].description}</p>
+            <p>{description}</p>
 
         </ section>
     )

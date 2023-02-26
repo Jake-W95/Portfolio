@@ -2,12 +2,15 @@
 import { NavLink } from "react-router-dom";
 import { useState } from 'react'
 
-import '../pages/ProjectsPage/ProjectsPage.css'
+import '../../pages/ProjectsPage/ProjectsPage.css'
 
 function ProjectItem(props) {
     const [isHover, setIsHover] = useState(false);
+    const [textData, setTextData] = useState(undefined);
+    const hoverText = (textData) => setTextData(textData);
     const mouseEnter = () => {
         setIsHover(true);
+
     }
     const mouseLeave = () => {
         setIsHover(false)
@@ -30,7 +33,7 @@ function ProjectItem(props) {
         backgroundSize: 'cover',
         height: isHover ? '100%' : '0%',
         paddingRight: '5rem',
-        
+
         overflow: 'hidden',
         transition: '.5s ease',
         borderRadius: '10px'
