@@ -1,31 +1,39 @@
+section.projectPage {
+    /* background-color: var(--C); */
 
-section.projectPage{
-    background-color: var(--C);
-    
     display: flex;
 
 
 }
+
 section.projectContainer {
-    background-color: var(--D);
     width: 57%;
     height: 88%;
     overflow-y: scroll;
     margin: auto;
-    
+    border-radius: 3%;
 }
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+    /* make scrollbar transparent */
+}
+
 div.projectDescription {
     /* background-color: darkblue; */
     /* padding: ; */
     width: 40%;
     /* height: 100%; */
 }
+
 .projectText {
     padding: 2rem;
-    }
+}
+
 .projectText h1 {
     /* color:rgb(141, 134, 134); */
-    font-size:2.5rem;
+    font-size: 2.5rem;
     overflow-wrap: break-word;
 
 }

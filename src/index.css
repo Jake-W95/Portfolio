@@ -112,20 +112,6 @@ header {
   align-items: center
 }
 
-.projectContainer {
-  /* width: 80%; */
-  /* margin: auto; */
-  display: grid;
-  grid-template-columns: 1fr 1fr
-}
-
-/* .overlayText {
-  background-color: rgba(10, 120, 150, 0.92);
-    padding: 2rem 4rem;
-    height: 100%;
-    width: 100%;
-    font-size: 120%
-} */
 
 
 
@@ -157,24 +143,11 @@ header {
     margin-left: 10px;
   }
 
-  /* .heroTextBox {
-    width: 70%;
-    height: fit-content;
-    padding: 1rem;
-    font-size: large; */
-  /* } */
-
   .CVContainer {
 
     flex-direction: column;
     height: 100%;
     width: 100%;
-  }
-
-
-  .CVSkills h1,
-  .CVSkills li {
-    font-size: large;
   }
 
   .CVLinkContainer,
