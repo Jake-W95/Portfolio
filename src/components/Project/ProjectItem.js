@@ -1,18 +1,23 @@
 
 import { NavLink } from "react-router-dom";
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 import '../../pages/ProjectsPage/ProjectsPage.css'
-import { hover } from "@testing-library/user-event/dist/hover";
+// import { hover } from "@testing-library/user-event/dist/hover";
 
 function ProjectItem(props) {
     const [isHover, setIsHover] = useState(false);
-    const [textData, setTextData] = useState(undefined);
-    const hoverText = (textData) => setTextData(textData);
+    // const getTextData = (hoverText) => hoverText(props.data)
+    // console.log(props.hoverText.hoverText, 'TEST')
+    function getText () { props.hoverText(props.data)}
+
+    // useEffect(() => {
+    //     console.log('POW', props.textData)
+    //         }, [props.textData])
+
     const mouseEnter = () => {
         setIsHover(true);
-hoverText(props.data)
-console.log(textData)
+        getText()
     }
     const mouseLeave = () => {
         setIsHover(false)

@@ -2,14 +2,13 @@ import ProjectItem from './ProjectItem'
 import projectArray from '../../projectClasser'
 
 // console.log(ProjectItem)
-function ProjectSection() {
-
+function ProjectSection(props) {
     return (
         <>
             {projectArray.map(
                 (project, i) => {
                     return (
-                        <ProjectItem key={i} data={project} /*onMouseEnter={hoverText(project)}*/ />
+                        <ProjectItem key={i} data={project} hoverText={props.hoverText} textData={props.textData} />
                     )
                 }
             )
