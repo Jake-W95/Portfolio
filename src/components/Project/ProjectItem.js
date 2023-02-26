@@ -1,22 +1,24 @@
-import React from 'react'
-import { NavLink } from "react-router-dom";
-import { useState } from 'react'
 
-// import '../globalStyles.css'
+import { NavLink } from "react-router-dom";
+import { useState, useEffect } from 'react'
+
+import '../../pages/ProjectsPage/ProjectsPage.css'
+// import { hover } from "@testing-library/user-event/dist/hover";
 
 function ProjectItem(props) {
     const [isHover, setIsHover] = useState(false);
+    function getText() { props.hoverText(props.data) }
+
     const mouseEnter = () => {
         setIsHover(true);
+        getText()
     }
     const mouseLeave = () => {
         setIsHover(false)
     }
 
     const projectItemStyle = {
-        height: '20rem',
-        display: 'flex',
-        flexDirection: 'column',
+        height: '10rem',
         margin: '1rem',
         backgroundImage: `url(${props.data.imgSrcA})`,
         backgroundRepeat: 'no-repeat',
@@ -29,12 +31,10 @@ function ProjectItem(props) {
         backgroundSize: 'cover',
         height: isHover ? '100%' : '0%',
         paddingRight: '5rem',
-        
         overflow: 'hidden',
-        transition: '.5s ease',
+        transition: '1s ease',
         borderRadius: '10px'
     }
-
 
     return (
         <>
@@ -42,15 +42,8 @@ function ProjectItem(props) {
                 style={projectItemStyle}
                 onMouseEnter={mouseEnter}
                 onMouseLeave={mouseLeave}>
-                <div
-                    className='overlay'
+                <div className='overlay'
                     style={overlayItemStyle}>
-                    <div class='overlayText'>
-                        <h3>{props.data.name}</h3>
-                        <p>{props.data.description}</p>
-                        <p>{props.data.technologies}</p>
-                        <NavLink to={props.data.link}>{props.data.linkText}</NavLink>
-                    </div>
                 </div>
             </div>
         </>

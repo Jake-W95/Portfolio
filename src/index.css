@@ -1,23 +1,42 @@
 :root {
-  --blue: rgb(10, 120, 150)
+  --A: rgb(250, 247, 240);
+  --B: rgb(205, 252, 246);
+  --C: rgb(188, 206, 248);
+  --D: rgb(152, 168, 248);
 }
 
 * {
-  color: rgb(54, 54, 61);
+  color: white; 
   text-decoration: none;
-  /* box-sizing: border-box; */
-
+  box-sizing: border-box;
+  
+}
+html {
+  height: 100%;
 }
 
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-    sans-serif;
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+  sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(54, 54, 61);
-  
+  /* background-color: rgb(54, 54, 61); */
+
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  /* overflow: hidden; */
+}
+#root {
+  height: 100%;
+}
+.App{
+  height: 100%;
+  background-image: url('./images/Background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 code {
@@ -25,74 +44,30 @@ code {
 }
 
 header {
-  background-color: var(--blue);
-  padding: 1.3rem 7%;
-  font-size: 140%;
+  /* background-color: var(--C); */
+  height: 10vh;
+  padding: 0.5rem 7%;
   display: flex;
   align-items: center;
   justify-content: space-between
 }
-
-h1 {
-  font-size: 200%;
+.page {
+  height: 90vh;
 }
 
-input,
-textarea {
-  margin-bottom: 1rem;
-  padding: 2rem;
-  width: 70vh;
-  font-size: 200%;
+.logo {
+  height: 3rem;
+  width: 3rem;
+  background-image: url('./images/Logos_Designs/JW_Logo_NoBackground.png');
+  background-position: center;
+  background-size: contain;
 }
-
-input::placeholder,
-textarea::placeholder {
-  color: var(--blue);
-  font-weight: 700;
-
-}
-
-.contact {
-  font-size: 250%;
-  margin: 7rem 2rem;
-
-}
-
-.lightText {
-
-  color: var(--blue);
-}
-
-
-.contactContainer {
-  display: flex;
-  justify-content: space-around;
-}
-
 .col {
   display: flex;
-  ;
   flex-direction: column;
 }
-
-.heroSection {
-  height: 100%;
-  padding: 4rem;
-  background-color: black;
-  background-image: url(../src/images/Mugshot.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
+.row {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.heroTextBox {
-  font-size: 300%;
-  background-color: rgba(10, 120, 150, .8);
-  padding: 2.5rem;
-  border-radius: 10px
 }
 
 .link {
@@ -100,54 +75,10 @@ textarea::placeholder {
   font-weight: bold;
   margin-left: 1.3rem;
 }
-
-.CVContainer {
-  display: flex;
-  height: 100%;
-
+.link:hover{
+  text-decoration: overline;
 }
 
-.CVSkills {
-  width: 50%;
-  /* height: 9vh; */
-  font-size: 300%;
-  box-sizing: border-box;
-  padding-left: 3rem;
-  background-color: rgb(54, 54, 61)
-}
-
-.CVLinkContainer {
-  width: 50%;
-  /* height: 100vh; */
-  /* background-color:red; */
-  background-image: url('./images/CV.jpg');
-  background-size: cover
-}
-
-.CVLink {
-
-  width: 100%;
-  height: 100%;
-  background-color: rgba(10, 120, 150, 0.7);
-  display: flex;
-  justify-content: center;
-  align-items: center
-}
-
-.projectContainer {
-  width: 80%;
-  margin: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr
-}
-
-.overlayText {
-  background-color: rgba(10, 120, 150, 0.92);
-    padding: 2rem 4rem;
-    height: 100%;
-    width: 100%;
-    font-size: 120%
-}
 
 
 
@@ -179,13 +110,6 @@ textarea::placeholder {
     margin-left: 10px;
   }
 
-  .heroTextBox {
-    width: 70%;
-    height: fit-content;
-    padding: 1rem;
-    font-size: large;
-  }
-
   .CVContainer {
 
     flex-direction: column;
@@ -193,31 +117,10 @@ textarea::placeholder {
     width: 100%;
   }
 
-
-  .CVSkills h1,
-  .CVSkills li {
-    font-size: large;
-  }
-
   .CVLinkContainer,
   .CVSkills {
     width: 100%;
     height: 50vh;
-  }
-
-  .contactContainer {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-
-  .contact {
-    /* width: ; */
-    font-size: medium;
-    margin: 0;
-  }
-
-  .contactForm h1 {
-    text-align: center;
   }
 
   input,
