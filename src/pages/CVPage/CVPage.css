@@ -37,3 +37,25 @@
     justify-content: center;
     align-items: center
 }
+
+@media only screen and (max-width: 413px) {
+    .CVContainer {
+
+        flex-direction: column-reverse;
+        justify-content:space-between;
+        height: 100%;
+        width: 100%;
+      }
+      .CVLinkContainer {
+        height: 45%;
+        width: 100%;
+      }
+    
+      
+      .CVSkills {
+        height: 50%;
+        width: 100%;
+        font-size: 180%;
+        margin-bottom: 2rem;
+      }
+}
