@@ -135,21 +135,4 @@ header {
     margin-bottom: 2rem;
     font-size: medium;
   }
-
-  .projectContainer {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-  }
-
-  .overlayText {
-    
-      /* padding: 2rem 4rem; */
-      height: 100%;
-      width: 10%;
-      padding: 1rem;
-      font-size: medium
-  }
-
-
 }
