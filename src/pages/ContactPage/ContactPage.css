@@ -1,26 +1,23 @@
 .contactContainer {
-    /* background-color: orange; */
     display: flex;
     justify-content: space-evenly;
 }
-
-.contactForm {
-    /* background-color: green; */
+.formDiv {
     width: 50%;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 10%;
-    position: relative;
 }
-
+.contactForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
 .shapesAndList {
     width: 50%;
-/* background-color: aquamarine; */
-position: relative;
+    position: relative;
 }
-
-/* .shapes {
-    
+/* .shapes {   
     background-image: url('../../images/Graphics/Shapes_1_NoBackground.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -30,24 +27,40 @@ position: relative;
     position: absolute;
     top: 20%;
     left: 20%
-    
 } */
-
 .list {
-    /* background-color: red; */
-    position: absolute;
+        position: absolute;
     top: 40%;
     left: 25%;
     z-index: 0;
 }
-
 input,
-textarea {
+textarea,
+button {
     margin-bottom: 1rem;
+    color: black;
 }
 
-input::placeholder,
-textarea::placeholder {
-    color: var(--D);
-    font-weight: 700;
+@media only screen and (max-width: 413px) {
+
+    .contactContainer {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .contactForm {
+        width: 100%;
+        height: 50%;
+        text-align: center;
+    }
+
+    .list {
+        width: 100%;
+        height: 50%;
+        padding-top: 50%;
+    }
+
+    .contact {
+        margin-bottom: 1rem;
+    }
 }

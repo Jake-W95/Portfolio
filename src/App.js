@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
+import { useEffect } from 'react';
 // Components
 import Header from './components/Header'
 import ProjectsPage from './pages/ProjectsPage/ProjectsPage'
@@ -11,6 +12,7 @@ import Hero from './components/Hero/Hero'
 
 
 function App() {
+  useEffect(() => {document.title = 'JWDev'}, [])
   return (
     <div className="App">
       <Header />
