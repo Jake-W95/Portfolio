@@ -1,4 +1,3 @@
-import CVBackground from '../../images/CV.jpg'
 import './CVPage.css'
 function CVPage() {
     return (
