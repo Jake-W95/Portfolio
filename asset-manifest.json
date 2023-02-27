@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React_Portfolio/static/css/main.230f5d8f.css",
-    "main.js": "/React_Portfolio/static/js/main.71670dc6.js",
+    "main.css": "/React_Portfolio/static/css/main.ef1a2a0f.css",
+    "main.js": "/React_Portfolio/static/js/main.a6d7cb69.js",
     "static/js/787.a2cb61a6.chunk.js": "/React_Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/chess.jpg": "/React_Portfolio/static/media/chess.26b086c8cef9f7e3dcde.jpg",
     "static/media/Headshot.jpg": "/React_Portfolio/static/media/Headshot.dd9576f97bbbfb6513fa.jpg",
@@ -23,12 +23,12 @@
     "static/media/JW_Logo_NoBackground.png": "/React_Portfolio/static/media/JW_Logo_NoBackground.e595e890942430a26d07.png",
     "static/media/PlannerA.png": "/React_Portfolio/static/media/PlannerA.a558e2209e8b0d761bec.png",
     "index.html": "/React_Portfolio/index.html",
-    "main.230f5d8f.css.map": "/React_Portfolio/static/css/main.230f5d8f.css.map",
-    "main.71670dc6.js.map": "/React_Portfolio/static/js/main.71670dc6.js.map",
+    "main.ef1a2a0f.css.map": "/React_Portfolio/static/css/main.ef1a2a0f.css.map",
+    "main.a6d7cb69.js.map": "/React_Portfolio/static/js/main.a6d7cb69.js.map",
     "787.a2cb61a6.chunk.js.map": "/React_Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.230f5d8f.css",
-    "static/js/main.71670dc6.js"
+    "static/css/main.ef1a2a0f.css",
+    "static/js/main.a6d7cb69.js"
   ]
 }
