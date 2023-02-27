@@ -12,7 +12,7 @@ import Hero from './components/Hero/Hero'
 
 
 function App() {
-  useEffect(() => document.title = 'JWDev')
+  useEffect(() => {document.title = 'JWDev'}, [])
   return (
     <div className="App">
       <Header />
