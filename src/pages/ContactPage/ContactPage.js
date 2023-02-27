@@ -1,17 +1,13 @@
+import ContactForm from './ContactForm'
 import './ContactPage.css'
 
+
 function Contact() {
+ 
     return (
         <section className="page contactContainer">
-
-
-            <div className="contactForm">
-                <h1 className="lightText">Contact Me</h1>
-                <form className="col">
-                    <input type='text' placeholder='Enter Your Name' />
-                    <input type='text' placeholder='Enter Your Email Address' />
-                    <textarea placeholder='Enter Message' cols='30' rows='10' />
-                </form>
+        <div className="formDiv">
+            <ContactForm />
             </div>
 
             <div className='shapesAndList'>

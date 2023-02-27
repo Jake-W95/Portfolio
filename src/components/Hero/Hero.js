@@ -5,10 +5,7 @@ function Hero() {
             <section className='heroSection'>
                 <div className="heroTextBox">
                     <div className='heroHeaders'>
-                        <h1 style={{
-                            fontSize: '5rem',
-                            color: 'white'
-                        }}>
+                        <h1>
                             Wallace Development
                         </h1>
                
