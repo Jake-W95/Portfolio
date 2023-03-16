@@ -1,9 +1,7 @@
-
-import { NavLink } from "react-router-dom";
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 
 import '../../pages/ProjectsPage/ProjectsPage.css'
-// import { hover } from "@testing-library/user-event/dist/hover";
+
 
 function ProjectItem(props) {
     const [isHover, setIsHover] = useState(false);

@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import Header from './components/Header'
 import ProjectsPage from './pages/ProjectsPage/ProjectsPage'
 import ContactPage from './pages/ContactPage/ContactPage';
-import CVPage from './pages/CVPage/CVPage.js';
+import CVPage from './pages/CVPage/CVpage';
 // Pages
 import Hero from './components/Hero/Hero'
 // import { Form } from 'react-router-dom';

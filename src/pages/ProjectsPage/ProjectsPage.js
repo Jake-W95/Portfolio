@@ -3,8 +3,8 @@ import ProjectGen from '../../components/Project/ProjectsGen';
 import ProjectText from '../../components/Project/ProjectText';
 import '../ProjectsPage/ProjectsPage.css'
 
-import { useState, useEffect } from 'react';
-import { text } from '@fortawesome/fontawesome-svg-core';
+import { useState } from 'react';
+
 
 
 function ProjectPage() {
