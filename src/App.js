@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { useEffect } from 'react';
 // Components
 import Header from './components/Header'
@@ -15,15 +15,17 @@ function App() {
   useEffect(() => {document.title = 'JWDev'}, [])
   return (
     <div className="App">
+      <BrowserRouter>
       <Header />
 
-      <Routes style={{height:'100%'}}>
+      <Routes>
         <Route path='/' element={<Hero />} />
         <Route path='/projects' element={<ProjectsPage />} />
         <Route path='/contact' element={<ContactPage />} />
         <Route path='CV' element={<CVPage />} />
 
       </Routes>
+      </BrowserRouter>
     </div>
   );
 }
