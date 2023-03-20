@@ -1,9 +1,8 @@
 .heroSection {
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
-    /* height: 90%; */
-}
+    padding-top: 5%;
+    }
 .heroImage {
     height: 27.5rem;
     width: 30%;
@@ -14,10 +13,10 @@
     margin: 2%
 }
 .heroTextBox {
-
-    padding: 4rem;
     width: 50%;
-
+}
+h1#heroTitle {
+    font-size: 350%;
 }
 
 

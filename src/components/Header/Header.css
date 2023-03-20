@@ -1,0 +1,18 @@
+header {
+    
+    height: 10vh;
+    width: 100%;
+    padding: 0.5rem 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+  }
+  .link {
+    font-size: 145%;
+    font-weight: bold;
+    margin-left: 1.3rem;
+  }
+  .link:hover{
+    text-decoration: overline;
+  }
+  

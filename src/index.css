@@ -1,29 +1,18 @@
-:root {
-  --A: rgb(250, 247, 240);
-  --B: rgb(205, 252, 246);
-  --C: rgb(188, 206, 248);
-  --D: rgb(152, 168, 248);
-}
-
 * {
   color: white; 
   text-decoration: none;
-  box-sizing: border-box;
-  
+  box-sizing: border-box;  
 }
 html {
   height: 100vh;
   width: 100%;
 }
-
 body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
   Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: rgb(54, 54, 61); */
-
   margin: 0;
   padding: 0;
   height: 100vh;
@@ -47,25 +36,9 @@ code {
   font-family: source-code-pr, Menl, Monac, Consola, Courier Ne monospace;
 }
 
-header {
-  /* background-color: var(--C); */
-  height: 10vh;
-  width: 100%;
-  padding: 0.5rem 7%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between
-}
-.page {
-  height: 90vh;
-}
 
-.logo {
-  height: fit-content;
-  width: 7rem;
-  background-image: url('./images/Logos_Designs/JW_Logo.png');
-  background-position: center;
-  background-size: cover;
+.page {
+  height: 85vh;
 }
 .col {
   display: flex;
@@ -75,14 +48,6 @@ header {
   display: flex;
 }
 
-.link {
-  font-size: 145%;
-  font-weight: bold;
-  margin-left: 1.3rem;
-}
-.link:hover{
-  text-decoration: overline;
-}
 
 
 
