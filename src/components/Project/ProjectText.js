@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
+// import { Link } from "react-router-dom";
+// import { motion } from "framer-motion";
 function ProjectText(textData) {
 
     if (textData.textData === undefined) {
@@ -12,8 +12,8 @@ function ProjectText(textData) {
         let projectName = textData.textData.name;
         let Tech = textData.textData.technologies;
         let description = textData.textData.description
-        let link = textData.textData.link
-        let linkText = textData.textData.linkText
+        // let link = textData.textData.link
+        // let linkText = textData.textData.linkText
         return (
             <section className="projectText" >
 
