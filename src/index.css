@@ -61,11 +61,11 @@ header {
 }
 
 .logo {
-  height: 3rem;
-  width: 3rem;
-  background-image: url('./images/Logos_Designs/JW_Logo_NoBackground.png');
+  height: fit-content;
+  width: 7rem;
+  background-image: url('./images/Logos_Designs/JW_Logo.png');
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 .col {
   display: flex;

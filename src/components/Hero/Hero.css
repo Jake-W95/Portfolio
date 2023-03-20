@@ -1,53 +1,48 @@
 .heroSection {
     display: flex;
-align-items: center;
+    align-items: center;
     justify-content: space-evenly;
-    height: 90%;
-
+    /* height: 90%; */
 }
-
 .heroImage {
     height: 27.5rem;
     width: 30%;
     background-image: url('../../images/Headshot.jpg');
     background-size: cover;
     background-position: center;
-    border-radius: 3%;
+    border-radius: 90%;
     margin: 2%
 }
-
 .heroTextBox {
 
     padding: 4rem;
     width: 50%;
-    
+
 }
-.heroHeaders {
-    font-size: 5rem
-}
-#heroText {
-    text-align: start;
-}
+
 
 
 @media only screen and (max-width: 413px) {
-.heroSection{
-    display: flex;
-    flex-direction: column ;
-}
-.heroImage{
-    width: 80%;
-}
-.heroHeaders {
-    font-size: 150%;
-}
-.heroTextBox {
-    width: 100%;
-/* align-self: center; */
-text-align: center; 
-    padding: 3rem;
-    margin-top: -4rem;
-    /* width: 80%; */
-    
-}
+    .heroSection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .heroImage {
+        width: 80%;
+    }
+
+    .heroHeaders {
+        font-size: 150%;
+    }
+
+    .heroTextBox {
+        width: 100%;
+        /* align-self: center; */
+        text-align: center;
+        padding: 3rem;
+        margin-top: -4rem;
+        /* width: 80%; */
+
+    }
 }
