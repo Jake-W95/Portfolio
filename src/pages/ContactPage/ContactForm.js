@@ -31,7 +31,7 @@ const ContactForm = () => {
                         name='name'
                         />
                         <label htmlFor='message'>
-                            Message
+                            Message:
                         </label>
                     <textarea
                         id="message"

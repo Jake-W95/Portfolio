@@ -38,7 +38,7 @@ class Project {
 // const projects = [
     const BBE = new Project(
         "Billy's Bike Exchange",
-        'Page ite for a bicycle repair and maintenance business, providing: a description, carousel of reviews and previous work, contact information including social media links and a mailing form and cards displaying services and costs',
+        'Page for a bicycle repair and maintenance business, providing: a description, carousel of reviews and previous work, contact information including social media links and a mailing form and cards displaying services and costs',
         ['Reactjs', 'Netlify', 'Framer Motion', 'Formspree', 'Pure-React-Carousel', 'Dayjs', 'React-icons'] ,
         'https://billysbikeexchange.netlify.app/',
         BBEA
@@ -108,5 +108,5 @@ const DailyPlanner = new Project(
     PlannerA,
     // PlannerB
 )
-projectArray.push(BBE, P1Heroes, EventFinder, WeatherApp, HangmanGame, TeamGenerator, READMEGenerator, DailyPlanner)
+projectArray.push(P1Heroes, BBE, EventFinder, WeatherApp, HangmanGame, TeamGenerator, READMEGenerator, DailyPlanner)
 export default projectArray
