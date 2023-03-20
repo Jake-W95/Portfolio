@@ -1,5 +1,6 @@
 import ProjectItem from './ProjectItem'
 import projectArray from '../../projectClasser'
+
 // console.log(ProjectItem)
 function ProjectSection(props) {
     return (

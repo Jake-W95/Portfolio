@@ -4,6 +4,8 @@ import ProjectText from '../../components/Project/ProjectText';
 import '../ProjectsPage/ProjectsPage.css'
 
 import { useState } from 'react';
+// import { motion } from 'framer-motion';
+
 
 
 

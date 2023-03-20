@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import { motion } from "framer-motion";
 function ProjectText(textData) {
 
     if (textData.textData === undefined) {
@@ -15,7 +15,7 @@ function ProjectText(textData) {
         let link = textData.textData.link
         let linkText = textData.textData.linkText
         return (
-            <section className="projectText">
+            <section className="projectText" >
 
                 <h1>{projectName}</h1>
 
@@ -32,7 +32,7 @@ function ProjectText(textData) {
                     </ul>
                 </div>
 
-                <Link to={link}><h3>{linkText}</h3></Link>
+                {/* <Link to={link}><h3>{linkText}</h3></Link> */}
             </ section>
         )
 

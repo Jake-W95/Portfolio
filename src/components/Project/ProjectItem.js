@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom';
 
 import '../../pages/ProjectsPage/ProjectsPage.css'
 
@@ -20,24 +21,27 @@ function ProjectItem(props) {
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
     }
+    // console.log()
 
     return (
         <>
-            <div className='projectItem'
-                style={projectItemStyle }
-                onMouseEnter={mouseEnter}
-                onMouseLeave={mouseLeave}>
-
-                <div className='overlay'
-                    style={{
-                        position: 'fixed',
-                        width: '23.5rem',
-                        height: '9em',
-                                             backgroundColor: 'rgba(75,75,75,.7)'
-                    }}>
-                    <h2 className='projectName'>{props.data.name}</h2>
+            <Link to={props.data.link} style={{height:'9em', width: '100%'}}> 
+                <div className='projectItem'
+                    style={projectItemStyle}
+                    onMouseEnter={mouseEnter}
+                    onMouseLeave={mouseLeave}>
+                    <div className='overlay'
+                        style={{
+                            position: 'fixed',
+                            width: '23.5rem',
+                            height: '9em',
+                            backgroundColor: 'rgba(75,75,75,.7)'
+                        }}>
+                        <h2 className='projectName'>{props.data.name}</h2>
+                    </div>
                 </div>
-            </div>
+            </Link>
+
         </>
     )
 }
