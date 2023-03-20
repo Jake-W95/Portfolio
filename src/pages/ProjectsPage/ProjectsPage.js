@@ -14,13 +14,13 @@ function ProjectPage() {
 
 
 
-    // console.log(textData)
+    
     return (
         <section className='page projectPage'>
             <section className="projectContainer">
                 <ProjectGen hoverText={hoverText} textData={textData}/>
             </section>
-            {/* <h2 style={{ color: 'white' }}>{textData}</h2> */}
+            
             <div className="projectDescription" >
                 <ProjectText textData={textData} />
 
