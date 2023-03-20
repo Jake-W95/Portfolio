@@ -35,7 +35,7 @@ function ProjectItem(props) {
                             position: 'fixed',
                             width: '23.5rem',
                             height: '9em',
-                            backgroundColor: 'rgba(75,75,75,0.7)'
+                            backgroundColor: 'rgba(25,25,25,.75)'
                         }}>
                         <h2 className='projectName'>{props.data.name}</h2>
                     </div>
