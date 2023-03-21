@@ -1,3 +1,5 @@
+import { motion } from 'framer-motion'
+
 import '../Hero/Hero.css'
 import mugshot from '../../images/Headshot.jpg'
 
@@ -7,7 +9,15 @@ function Hero() {
     return (
         <>
             <section className='heroSection page'>
-                <div className='heroTextBox'>
+                <motion.div className='heroTextBox'
+                initial={{x:-750}}
+                animate={{x:0}}
+                transition={{
+                    type: 'spring',
+                    duration:0.9
+                }}
+                
+                >
                     <div className='heroHeaders'>
                         <h1 id='heroTitle'>Jake Wallace </h1>
                         <p className='heroText'>
@@ -26,8 +36,16 @@ function Hero() {
                         </p>
                     </div>
 
-                </div>
-                <img src={mugshot} alt="That'd be me" width={'auto'} height={'75%'}/>
+                </motion.div>
+
+                <motion.img src={mugshot} alt="That'd be me" width={'auto'} height={'75%'}
+                initial={{x: 750}}
+                animate={{x:0}}
+                transition={{
+                    type: 'spring',
+                    duration:0.9
+                }}
+                />
             </section>
         </>
     )
