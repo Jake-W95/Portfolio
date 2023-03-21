@@ -66,16 +66,6 @@ code {
     font-size: 20px;
   }
 
-  nav {
-    display: flex;
-    width: auto;
-  }
-
-  .link {
-    font-size: 110%;
-    margin-left: 10px;
-  }
-
 
 
   input,

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion'
 
 import '../../pages/ProjectsPage/ProjectsPage.css'
 
@@ -22,25 +23,34 @@ function ProjectItem(props) {
         backgroundSize: 'cover',
     }
     // console.log()
-
+    console.log(props.index)
     return (
         <>
-            <Link to={props.data.link} style={{height:'9em', width: '100%'}}> 
-                <div className='projectItem'
-                    style={projectItemStyle}
-                    onMouseEnter={mouseEnter}
-                    onMouseLeave={mouseLeave}>
-                    <div className='overlay'
-                        style={{
-                            position: 'fixed',
-                            width: '23.5rem',
-                            height: '9em',
-                            backgroundColor: 'rgba(25,25,25,.75)'
-                        }}>
-                        <h2 className='projectName'>{props.data.name}</h2>
-                    </div>
-                </div>
-            </Link>
+            <motion.div whileHover={{ scale: 1.05 }}>
+                <Link to={props.data.link} style={{ height: '9em', width: '100%' }}>
+                    <motion.div className='projectItem'
+                        style={projectItemStyle}
+                        onMouseEnter={mouseEnter}
+                        onMouseLeave={mouseLeave}
+
+                        initial={{ x: -1000 }}
+                        animate={{ x: -0 }}
+                        transition={{ delay: props.index * 0.1, type: 'spring', stiffness: 50 }}
+                    >
+
+
+                        <div className='overlay'
+                            style={{
+                                position: 'fixed',
+                                width: '23.5rem',
+                                height: '9em',
+                                backgroundColor: 'rgba(25,25,25,.75)'
+                            }}>
+                            <h2 className='projectName'>{props.data.name}</h2>
+                        </div>
+                    </motion.div>
+                </Link>
+            </motion.div>
 
         </>
     )

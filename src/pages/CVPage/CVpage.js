@@ -2,7 +2,7 @@ import './CVPage.css'
 function CVPage() {
     return (
         <>
-            <section className='CVContainer'>
+            <section className='CVContainer page'>
                 <div className='CVSkills'>
                     <h1 className='lightText'>My Skills</h1>
                     <ul >

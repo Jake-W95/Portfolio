@@ -16,3 +16,10 @@ header {
     text-decoration: overline;
   }
   
+  nav {
+    display: flex;
+    width: auto;
+  }
+
+
+  

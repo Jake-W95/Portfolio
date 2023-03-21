@@ -7,8 +7,9 @@ function ProjectSection(props) {
         <>
             {projectArray.map(
                 (project, i) => {
+                    // console.log(i)
                     return (
-                        <ProjectItem key={i} data={project} hoverText={props.hoverText} textData={props.textData} />
+                        <ProjectItem key={i}  index={i}data={project} hoverText={props.hoverText} textData={props.textData} />
                     )
                 }
             )
