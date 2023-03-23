@@ -1,5 +1,5 @@
 header {
-    
+    /* background-color: rgba(255, 99, 71, 0.3); */
     height: 10vh;
     width: 100%;
     padding: 0.5rem 7%;
@@ -15,11 +15,30 @@ header {
   .link:hover{
     text-decoration: overline;
   }
-  
+  #logo {
+    width:auto;
+     height:100%
+  }
   nav {
     display: flex;
     width: auto;
   }
+
+  @media only screen and (max-width: 600px) {
+header {
+  width:100vw
+}
+#logo {
+  height: 75%;
+  /* align-self: center; */
+}
+#heroTitle {
+  margin:0
+}
+    .link {font-size: 90%;}
+  }
+    
+  
 
 
   

@@ -12,7 +12,7 @@ function Header() {
 
                 {/* <div className="logo"></div> */}
                 <Link to={'/'} style={{height: '100%'}}>
-                    <img src={Logo} alt="logosdcjns" width={'auto'} height={'110%'} />
+                    <img src={Logo} alt="logosdcjns" id="logo" />
                 </Link>
                 <NavBar />
 

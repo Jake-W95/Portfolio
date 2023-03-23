@@ -15,13 +15,13 @@ const Footer = () => {
 
                     <motion.div whileHover={{ y: -12, scale: 1.4 }}>
                         <Link to='https://github.com/Jake-W95'>
-                            <BsGithub size={'1.7em'} />
+                            <BsGithub size={'1.7rem'} />
                         </Link>
                     </motion.div>
 
                     <motion.div whileHover={{ y: -12, scale: 1.4 }}>
                     <Link to='https://www.linkedin.com/in/jw-fed/'>
-                        <BsLinkedin size={'1.7em'} />
+                        <BsLinkedin size={'1.7rem'} />
                     </Link>
                     </motion.div>
 

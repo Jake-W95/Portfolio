@@ -2,43 +2,45 @@
     display: flex;
     justify-content: space-evenly;
     padding-top: 5%;
-    }
-.heroImage {
-    height: 27.5rem;
-    width: 30%;
-    background-image: url('../../images/Headshot.jpg');
-    background-size: cover;
-    background-position: center;
-    border-radius: 90%;
-    margin: 2%
 }
+
 .heroTextBox {
     width: 50%;
 }
+
+#mugshot {
+    width: auto;
+    height: 75%
+}
+
 h1#heroTitle {
     font-size: 350%;
 }
-@media only screen and (max-width: 413px) {
+
+
+
+@media only screen and (max-width: 600px) {
     .heroSection {
-        display: flex;
         flex-direction: column;
-    }
-
-    .heroImage {
-        width: 80%;
-    }
-
-    .heroHeaders {
-        font-size: 150%;
+        padding-top: 0;
+        /* width: 100vw; */
     }
 
     .heroTextBox {
         width: 100%;
-        /* align-self: center; */
         text-align: center;
-        padding: 3rem;
-        margin-top: -4rem;
-        /* width: 80%; */
+        padding: 1rem;
+    }
 
+    #mugshot {
+        height:auto;
+        width: 52.7%;
+        align-self: center;
+        /* margin-bottom: 2.5rem; */
+    }
+
+    .heroHeaders {
+        font-size: 90%;
+        /* background-color: aquamarine; */
     }
 }

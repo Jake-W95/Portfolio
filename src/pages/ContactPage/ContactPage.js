@@ -10,7 +10,7 @@ function Contact() {
 
     return (
 
-        <section className="page row">
+        <section className="page row" id='contactPage'>
             <motion.section className='contactContainer'
                 initial={{ x: -750 }}
                 animate={{ x: 0 }}
@@ -20,15 +20,15 @@ function Contact() {
                 }}>
 
 
-                <div className='list'>
+                <div className='contactIntro'>
                     <h2>Please get in contact with me if you have any queries using the contact form, emailing me directly or through Linkedin and Github</h2>
                     <ul>
-                        <li className="contact lightText"><b className="lightText">Email: </b>jakewallace368@gmail.com</li>
-                        <li className="contact lightText"><a href="https://github.com/Jake-W95" ><b className="lightText">GitHub</b></a></li>
-                        <li className="contact lightText"><a href="https://www.linkedin.com/in/jake-wallace-b2b85a25a/"><b className="lightText">Linkedin</b></a></li>
+                        <li className="contact "><b >Email: </b>jakewallace368@gmail.com</li>
+                        <li className="contact "><a href="https://github.com/Jake-W95" ><b >GitHub</b></a></li>
+                        <li className="contact"><a href="https://www.linkedin.com/in/jake-wallace-b2b85a25a/"><b>Linkedin</b></a></li>
                     </ul>
                 </div>
-                <div className="formDiv">
+                <div>
                     <ContactForm />
                 </div>
 
