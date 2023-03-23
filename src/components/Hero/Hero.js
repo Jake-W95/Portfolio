@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion'
 
+
 import '../Hero/Hero.css'
 import mugshot from '../../images/Headshot.jpg'
-
-
+import { Link } from 'react-router-dom'
 
 function Hero() {
     return (
@@ -23,7 +23,7 @@ function Hero() {
                         <p className='heroText'>
                             Passionate and technically minded, I always strive to deliver the best possible product. With a hunger to develop both impeccable applications and my own skills, I am constantly learning new languages and abilities. </p>
                         <p className='heroText'>
-                            Having recently completed a Front-End Web Development course provided by edX & Birmingham University, I am comfortable working in the following languages:
+                            Having recently completed a Front-End Web Development course provided by edX & Birmingham University, I am comfortable working in the following languages and libraries:
                             <ul>
                                 <li>HTML 5</li>
                                 <li>CSS 3</li>
@@ -33,6 +33,7 @@ function Hero() {
                                 <li>React</li>
                                 <li>Bootstrap</li>
                             </ul>
+                            Take a look at some of my previous work on the <Link to='projects'><i>Projects</i></Link> page
                         </p>
                     </div>
 

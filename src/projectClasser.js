@@ -39,7 +39,7 @@ class Project {
     const BBE = new Project(
         "Billy's Bike Exchange",
         'Page for a bicycle repair and maintenance business, providing: a description, carousel of reviews and previous work, contact information including social media links and a mailing form and cards displaying services and costs',
-        ['Reactjs', 'Netlify', 'Framer Motion', 'Formspree', 'Pure-React-Carousel', 'Dayjs', 'React-icons'] ,
+        ['React js', 'Netlify', 'Framer Motion', 'Formspree', 'Pure-React-Carousel', 'Dayjs', 'React-icons'] ,
         'https://billysbikeexchange.netlify.app/',
         BBEA
 
@@ -47,7 +47,7 @@ class Project {
 const P1Heroes = new Project(
     'P1 Heroes!',
     'A slick, professional looking React application for F1 fans displaying news, up-coming race dates, standings and a Top Trumps style card game written from scratch',
-    ['Reactjs','Netlify', 'Framer Motion', 'GoogleAPI', 'NewsAPI'],
+    ['React js','Netlify', 'Framer Motion', 'GoogleAPI', 'NewsAPI'],
     'https://p1-heroes.netlify.app/',
     // 'Click Here for the Live Site',
     P1HeroesA,
