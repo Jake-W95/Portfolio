@@ -1,9 +1,8 @@
-
-import { NavLink } from "react-router-dom";
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
+import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion'
 
 import '../../pages/ProjectsPage/ProjectsPage.css'
-// import { hover } from "@testing-library/user-event/dist/hover";
 
 function ProjectItem(props) {
     const [isHover, setIsHover] = useState(false);
@@ -18,34 +17,33 @@ function ProjectItem(props) {
     }
 
     const projectItemStyle = {
-        height: '10rem',
-        margin: '1rem',
+        height: '9em',
         backgroundImage: `url(${props.data.imgSrcA})`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
-        borderRadius: '10px',
     }
-    const overlayItemStyle = {
-        backgroundImage: `url(${props.data.imgSrcB})`,
-        backgroundRepeat: 'no-repeat',
-        backgroundSize: 'cover',
-        height: isHover ? '100%' : '0%',
-        paddingRight: '5rem',
-        overflow: 'hidden',
-        transition: '1s ease',
-        borderRadius: '10px'
-    }
-
+    // console.log()
+    console.log(props.index)
     return (
         <>
-            <div className='projectItem'
-                style={projectItemStyle}
-                onMouseEnter={mouseEnter}
-                onMouseLeave={mouseLeave}>
-                <div className='overlay'
-                    style={overlayItemStyle}>
-                </div>
-            </div>
+            <motion.div whileHover={{ scale: 1.05 }}>
+                <Link to={props.data.link} style={{ height: '9em', width: '100%' }}>
+                    <motion.div className='projectItem'
+                        style={projectItemStyle}
+                        onMouseEnter={mouseEnter}
+                        onMouseLeave={mouseLeave}
+                        initial={{ x: -1000 }}
+                        animate={{ x: -0 }}
+                        transition={{ delay: props.index * 0.1, type: 'spring', stiffness: 50 }}                    >
+
+
+                        <div className='overlay'>
+                            <h2 className='projectName'>{props.data.name}</h2>
+                        </div>
+                    </motion.div>
+                </Link>
+            </motion.div>
+
         </>
     )
 }
