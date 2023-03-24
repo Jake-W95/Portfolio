@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.074eef10.css",
-    "main.js": "/portfolio/static/js/main.5fdf0ee2.js",
-    "static/js/787.a2cb61a6.chunk.js": "/portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/Headshot.jpg": "/portfolio/static/media/Headshot.dd9576f97bbbfb6513fa.jpg",
-    "static/media/EventFinderA.png": "/portfolio/static/media/EventFinderA.70e342ea2cd5bdef58fd.png",
-    "static/media/BBE.jpg": "/portfolio/static/media/BBE.847db95b9ade6f33a94a.jpg",
-    "static/media/P1HeroesA.jpg": "/portfolio/static/media/P1HeroesA.a16100a27b173b462b83.jpg",
-    "static/media/Background.jpg": "/portfolio/static/media/Background.598ebbb08aeab7909e96.jpg",
-    "static/media/TeamGeneratorA.jpg": "/portfolio/static/media/TeamGeneratorA.ee934e533387cfdef2c3.jpg",
-    "static/media/READMEGeneratorA.jpg": "/portfolio/static/media/READMEGeneratorA.317535c840473256e979.jpg",
-    "static/media/HangmanA.jpg": "/portfolio/static/media/HangmanA.85479af4178de3498b8c.jpg",
-    "static/media/WeatherAppA.jpg": "/portfolio/static/media/WeatherAppA.818b0295d97ce4752c70.jpg",
-    "static/media/PlannerA.png": "/portfolio/static/media/PlannerA.a558e2209e8b0d761bec.png",
-    "static/media/JW_Logo.png": "/portfolio/static/media/JW_Logo.948af7e8c7af7a170466.png",
-    "index.html": "/portfolio/index.html",
-    "main.074eef10.css.map": "/portfolio/static/css/main.074eef10.css.map",
-    "main.5fdf0ee2.js.map": "/portfolio/static/js/main.5fdf0ee2.js.map",
-    "787.a2cb61a6.chunk.js.map": "/portfolio/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.daa76e37.css",
+    "main.js": "/Portfolio/static/js/main.9d758853.js",
+    "static/js/787.a2cb61a6.chunk.js": "/Portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/Headshot.jpg": "/Portfolio/static/media/Headshot.dd9576f97bbbfb6513fa.jpg",
+    "static/media/EventFinderA.png": "/Portfolio/static/media/EventFinderA.70e342ea2cd5bdef58fd.png",
+    "static/media/BBE.jpg": "/Portfolio/static/media/BBE.847db95b9ade6f33a94a.jpg",
+    "static/media/P1HeroesA.jpg": "/Portfolio/static/media/P1HeroesA.a16100a27b173b462b83.jpg",
+    "static/media/Background.jpg": "/Portfolio/static/media/Background.598ebbb08aeab7909e96.jpg",
+    "static/media/TeamGeneratorA.jpg": "/Portfolio/static/media/TeamGeneratorA.ee934e533387cfdef2c3.jpg",
+    "static/media/READMEGeneratorA.jpg": "/Portfolio/static/media/READMEGeneratorA.317535c840473256e979.jpg",
+    "static/media/HangmanA.jpg": "/Portfolio/static/media/HangmanA.85479af4178de3498b8c.jpg",
+    "static/media/WeatherAppA.jpg": "/Portfolio/static/media/WeatherAppA.818b0295d97ce4752c70.jpg",
+    "static/media/PlannerA.png": "/Portfolio/static/media/PlannerA.a558e2209e8b0d761bec.png",
+    "static/media/JW_Logo.png": "/Portfolio/static/media/JW_Logo.948af7e8c7af7a170466.png",
+    "index.html": "/Portfolio/index.html",
+    "main.daa76e37.css.map": "/Portfolio/static/css/main.daa76e37.css.map",
+    "main.9d758853.js.map": "/Portfolio/static/js/main.9d758853.js.map",
+    "787.a2cb61a6.chunk.js.map": "/Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.074eef10.css",
-    "static/js/main.5fdf0ee2.js"
+    "static/css/main.daa76e37.css",
+    "static/js/main.9d758853.js"
   ]
 }
