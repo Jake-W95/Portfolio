@@ -10,10 +10,17 @@ section.projectContainer {
     width: 50%;
     height: 88%;
     gap: 1em;
+    /* background-color: yellowgreen; */
 }
+
 div .overlay {
     padding-top: 2.5em;
     text-align: center;
+    /* position: fixed; */
+    width: 100%;
+    height: 100%;
+    background-color: rgba(25,25,25,.75)
+    /* background-color: rgba(255, 0, 0, 0.4); */
 }
 
 ::-webkit-scrollbar {
@@ -23,6 +30,7 @@ div .overlay {
 
 div.projectDescription {
     width: 40%;
+    /* background-color: yellow; */
 }
 
 .projectText {
@@ -40,22 +48,30 @@ div.projectDescription {
     text-align: center;
 }
 
-@media only screen and (max-width: 413px) {
-    section.projectPage {
+@media only screen and (max-width: 600px) {
+    section .projectPage {
         flex-direction: column;
-        justify-content: space-between
+        justify-content: space-between;
+        /* background-color: yellowgreen */
+        height: 100%;
     }
 
     section .projectContainer {
-        height: 40%;
-        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        overflow-y: scroll;
+        height: 87%;
+        width: 90%;
+        /* background-color: red; */
     }
 
     div .projectDescription {
-        height: 55%;
+        display: none;
+    }
+
+    .overlay {
         width: 100%;
-        padding-top: 2.6rem;
-        overflow-y: scroll;
     }
 
     .projectText h1 {

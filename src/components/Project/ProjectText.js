@@ -18,14 +18,10 @@ function ProjectText(textData) {
             <section className="projectText" >
                 <motion.div
                 initial={{y:600}}
-                animate={{y:0}}
-                
-                
-                >
+                animate={{y:0}}>
+
                     <h1>{projectName}</h1>
-
                     <p>{description}</p>
-
                     <div className="techUsed">
                         <h2>Technologies used: </h2>
                         <ul>

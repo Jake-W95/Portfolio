@@ -8,39 +8,37 @@
     width: 50%;
 }
 
+h1#heroTitle {
+    font-size: 350%;
+}
+
 #mugshot {
     width: auto;
     height: 75%
 }
 
-h1#heroTitle {
-    font-size: 350%;
-}
-
-
-
 @media only screen and (max-width: 600px) {
     .heroSection {
         flex-direction: column;
         padding-top: 0;
-        /* width: 100vw; */
     }
 
     .heroTextBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 100%;
         text-align: center;
         padding: 1rem;
     }
 
-    #mugshot {
-        height:auto;
-        width: 52.7%;
-        align-self: center;
-        /* margin-bottom: 2.5rem; */
+    .heroList {
+        width: 60%;
     }
 
-    .heroHeaders {
-        font-size: 90%;
-        /* background-color: aquamarine; */
+    #mugshot {
+        height: auto;
+        width: 52.7%;
+        align-self: center;
     }
 }

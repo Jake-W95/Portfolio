@@ -32,20 +32,12 @@ function ProjectItem(props) {
                         style={projectItemStyle}
                         onMouseEnter={mouseEnter}
                         onMouseLeave={mouseLeave}
-
                         initial={{ x: -1000 }}
                         animate={{ x: -0 }}
-                        transition={{ delay: props.index * 0.1, type: 'spring', stiffness: 50 }}
-                    >
+                        transition={{ delay: props.index * 0.1, type: 'spring', stiffness: 50 }}                    >
 
 
-                        <div className='overlay'
-                            style={{
-                                position: 'fixed',
-                                width: '23.5rem',
-                                height: '9em',
-                                backgroundColor: 'rgba(25,25,25,.75)'
-                            }}>
+                        <div className='overlay'>
                             <h2 className='projectName'>{props.data.name}</h2>
                         </div>
                     </motion.div>
