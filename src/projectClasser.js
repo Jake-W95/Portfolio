@@ -58,7 +58,7 @@ const GIGStop = new Project(
     'GIGStop',
     'An application that allows users to search for and save events, providing information and useful links (official sites, tickets etc) and music news',
     ['TicketMaster API', 'Google Maps API', 'newsData QPI', 'moment.js', 'JQuery'],
-    'https://github.com/Jake-W95/GIGStop',
+    'https://jake-w95.github.io/GIGStop/',
     // 'Click here for the GitHub Repository',
     GigStop,
     // EventFinderB

@@ -25,14 +25,14 @@ function ProjectItem(props) {
     return (
         <>
             <motion.div whileHover={{ scale: 1.05 }}>
-                <Link to={props.data.link} style={{ height: '9em', width: '100%' }}>
+                <Link to={props.data.liveLink} style={{ height: '9em', width: '100%' }}>
                     <motion.div className='projectItem'
                         style={projectItemStyle}
                         onMouseEnter={mouseEnter}
                         onMouseLeave={mouseLeave}
                         initial={{ x: -1000 }}
                         animate={{ x: -0 }}
-                        transition={{ delay: props.index * 0.1, type: 'spring', stiffness: 50 }}                    >
+                        transition={{ delay: props.index * 0.1, type: 'spring', stiffness: 50 }}>
 
 
                         <div className='overlay'>
