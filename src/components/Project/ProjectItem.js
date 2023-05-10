@@ -22,8 +22,6 @@ function ProjectItem(props) {
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
     }
-    // console.log()
-    console.log(props.index)
     return (
         <>
             <motion.div whileHover={{ scale: 1.05 }}>

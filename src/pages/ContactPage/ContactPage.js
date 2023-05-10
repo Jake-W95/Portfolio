@@ -60,7 +60,7 @@ function Contact() {
 
                 <div className='CVLinkContainer'>
                     <div className='CVLink'>
-                        <Link to='https://drive.google.com/file/d/1OrYMwmh4oVTYN0RRZ7ALqUdDwR-MJ0vb/view?usp=sharing'>
+                        <Link to='https://drive.google.com/file/d/1miUDCvA92XrO89RCBvYci8EwvKDiWwEv/view?usp=sharing'>
                             <h1>Take a look at my CV</h1>
                         </Link>
                         <Link to='https://github.com/Jake-W95'><h1>My Github</h1> </Link>

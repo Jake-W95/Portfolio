@@ -4,7 +4,7 @@ import P1HeroesA from './images/projectImgA/P1HeroesA.jpg'
 // import P1HeroesB from './images/projectImgB/P1HeroesB.jpg'
 
 
-import EventFinderA from './images/projectImgA/EventFinderA.png'
+import GigStop from './images/projectImgA/GigStop.jpg'
 // import EventFinderB from './images/projectImgB/EventFinderB.png'
 
 import WeatherAppA from './images/projectImgA/WeatherAppA.jpg'
@@ -25,14 +25,14 @@ import PlannerA from './images/projectImgA/PlannerA.png'
 
 const projectArray = []
 class Project {
-    constructor(name, description, tech, link, imgSrcA) {
+    constructor(name, description, tech, liveLink, imgSrcA) {
         this.name = name;
         this.description = description;
         this.technologies = tech;
-        this.link = link;
-        // this.linkText = linkText;
+        this.liveLink = liveLink;
+        // this.repoLink = repoLink;
         this.imgSrcA = imgSrcA;
-        // this.imgSrcB = imgSrcB
+        
     }
 }
 // const projects = [
@@ -54,13 +54,13 @@ const P1Heroes = new Project(
     // P1HeroesB
 )
 
-const EventFinder = new Project(
-    'Event Finder',
-    'An application that allows users to search for and save events, providing information and useful links (official sites, tickets etc)',
-    ['TicketMaster API', 'Google Maps API', 'moment.js', 'JQuery'],
-    'https://github.com/Jake-W95/Event_Finder_App',
+const GIGStop = new Project(
+    'GIGStop',
+    'An application that allows users to search for and save events, providing information and useful links (official sites, tickets etc) and music news',
+    ['TicketMaster API', 'Google Maps API', 'newsData QPI', 'moment.js', 'JQuery'],
+    'https://github.com/Jake-W95/GIGStop',
     // 'Click here for the GitHub Repository',
-    EventFinderA,
+    GigStop,
     // EventFinderB
 )
 const WeatherApp = new Project(
@@ -108,5 +108,5 @@ const DailyPlanner = new Project(
     PlannerA,
     // PlannerB
 )
-projectArray.push(P1Heroes, BBE, EventFinder, WeatherApp, HangmanGame, TeamGenerator, READMEGenerator, DailyPlanner)
+projectArray.push(P1Heroes, BBE, GIGStop, WeatherApp, HangmanGame, TeamGenerator, READMEGenerator, DailyPlanner)
 export default projectArray
